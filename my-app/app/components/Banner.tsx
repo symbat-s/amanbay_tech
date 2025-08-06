@@ -18,8 +18,8 @@ export default function Banner() {
 
         <div className="max-w-3xl text-base sm:text-lg md:text-xl leading-relaxed">
           <p>
-            Empower Your Business for the Digital Age – Cutting-Edge Web,
-            Mobile Development, <br />
+            Empower Your Business for the Digital Age – <br />Cutting-Edge Web,
+            Mobile Development,
             and DevOps Solutions for Your Success!
           </p>
         </div>
