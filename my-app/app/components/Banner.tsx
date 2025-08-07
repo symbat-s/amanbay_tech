@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Banner() {
   return (
     <div
-      className="w-full h-screen bg-cover bg-center z-[-1] flex items-center justify-center px-6"
+      className="w-full h-screen bg-cover bg-center z-[-1] flex items-center justify-center px-6 "
       style={{ backgroundImage: "url('image/Peak.png')" }}
     >
       <div className="max-w-[1200px] w-full flex flex-col items-start gap-10 text-white">
@@ -20,7 +20,7 @@ export default function Banner() {
           <p>
             Empower Your Business for the Digital Age – <br />Cutting-Edge Web,
             Mobile Development,
-            and DevOps Solutions for Your Success!
+            and DevOps <br /> Solutions for Your Success!
           </p>
         </div>
 
