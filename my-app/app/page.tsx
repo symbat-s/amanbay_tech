@@ -10,6 +10,7 @@ export default function Home() {
       <BannerTwo />
       <AboutBanner/>
       <Question/>
+      <h1>bhsjjc</h1>
     </div>
   );
 }
