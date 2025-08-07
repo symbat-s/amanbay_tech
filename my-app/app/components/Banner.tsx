@@ -29,7 +29,7 @@ export default function Banner() {
             Our services
           </button>
           <button className="text-lg sm:text-xl border-2 border-white/50 text-white hover:bg-[#babbbb] hover:text-[black] px-6 py-3 rounded-[30px]">
-            Contact Use
+            Contact Us
           </button>
         </div>
       </div>

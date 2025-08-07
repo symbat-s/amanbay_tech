@@ -12,7 +12,7 @@ export default function Footer(){
         </h1>
 
         <iframe
-          src="https://2gis.kz/shymkent/firm/70000001098624861?m=69.606673%2C42.341667%2F16"
+          src="https://yandex.kz/map-widget/v1/?ll=69.606586%2C42.341686&z=16&l=map&pt=69.606586,42.341686,pm2rdm"
           width="100%"
           height="400"
           style={{ border: 0 }}
