@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function AboutBanner(){
   return (
-    <div className="relative w-full h-[300px] my-50">
+    <div className="relative w-full h-[300px] my-10">
       <Image
         src="/red_team.png"
         alt="team"
