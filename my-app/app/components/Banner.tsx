@@ -6,7 +6,7 @@ export default function Banner() {
       className="w-full h-screen bg-cover bg-center z-[-1] flex items-center justify-center px-6 "
       style={{ backgroundImage: "url('image/Peak.png')" }}
     >
-      <div className="max-w-[1200px] w-full flex flex-col items-start gap-10 text-white">
+      <div className="max-w-[1200px] w-full flex flex-col items-start gap-10 text-white ">
         <div className="space-y-4">
           <div className="text-[#d9011c] text-3xl sm:text-4xl md:text-5xl font-bold">
             Welcome to
@@ -16,7 +16,7 @@ export default function Banner() {
           </div>
         </div>
 
-        <div className="max-w-3xl text-[#babbbb] text-base sm:text-lg md:text-xl leading-relaxed">
+        <div className=" text-[#FEEBEB]  sm:text-lg md:text-2xl leading-relaxed tracking-wide" style={{ fontFamily: "Urbanist" }}>
           <p>
             Empower Your Business for the Digital Age – <br />Cutting-Edge Web,
             Mobile Development,
