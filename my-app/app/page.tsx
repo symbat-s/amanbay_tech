@@ -1,7 +1,7 @@
 import Banner from "./components/Banner";
 import BannerTwo from "./components/BannerTwo";
 import AboutBanner from "./components/AboutSection";
-import Question from "./components/Question";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
       <Banner />
       <BannerTwo />
       <AboutBanner/>
-      <Question/>
+      <Footer/>
     </div>
   );
 }
