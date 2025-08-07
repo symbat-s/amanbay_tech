@@ -1,5 +1,7 @@
 import Contact from "./Contact";
+
 import Image from "next/image";
+
 
 export default function Footer(){
   return (
@@ -16,6 +18,7 @@ export default function Footer(){
           style={{ border: 0 }}
           allowFullScreen
         ></iframe>
+
 
         <Contact />
 
@@ -71,6 +74,7 @@ export default function Footer(){
 </div>
 
     </div>
+
     </div>
   );
 }
