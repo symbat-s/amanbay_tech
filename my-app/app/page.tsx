@@ -1,4 +1,4 @@
-import Header from "./components/Header";
+import Header from "./components/Header"
 import Banner from "./components/Banner";
 import BannerTwo from "./components/BannerTwo";
 import AboutBanner from "./components/AboutSection";
