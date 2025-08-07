@@ -8,7 +8,7 @@ function BannerTwo (){
      </div>
      
        <div>
-         <img src="image/social.png" alt="social"  className="w-[401px] h-[602px] mt-[120px] ml-[20px]"/>
+         <img src="image/social.png" alt="social"  className=" hidden md:block w-full h-auto  mt-[120px] ml-[20px]"/>
        </div>
 
          <div className="ml-[40px] mt-[120px]">
