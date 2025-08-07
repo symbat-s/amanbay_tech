@@ -1,14 +1,12 @@
 import React from "react";
-import Image from "next/image";
+
 
 export default function AboutBanner(){
   return (
     <div className="relative w-full h-[300px] my-10">
-      <Image
-        src="/red_team.png"
+      <img src="image/red_team.png"
         alt="team"
-        fill
-        priority
+        
         className="absolute inset-0 object-contain"
       />
         <div className="relative z-10 flex justify-around items-center h-full text-white text-center px-4">
