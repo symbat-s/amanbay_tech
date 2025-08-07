@@ -1,10 +1,10 @@
 import Contact from "./Contact";
 import Image from "next/image";
 
-export default function Footer() {
+export default function Footer(){
   return (
     <div className="bg-white">
-      <div className="px-8 py-10">
+      <div>
         <h1 className="font-bold text-5xl text-center mb-10" style={{ fontFamily: "Inter" }}>
           Контакты
         </h1>
