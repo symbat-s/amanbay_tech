@@ -12,6 +12,7 @@ export default function Footer(){
         </h1>
 
         <iframe
+<<<<<<< HEAD
   src="42.341690, 69.606517"
   width="100%"
   height="500"
@@ -19,6 +20,14 @@ export default function Footer(){
   allowFullScreen
 ></iframe>
 
+=======
+          src="https://yandex.kz/map-widget/v1/?ll=69.606586%2C42.341686&z=16&l=map&pt=69.606586,42.341686,pm2rdm"
+          width="100%"
+          height="400"
+          style={{ border: 0 }}
+          allowFullScreen
+        ></iframe>
+>>>>>>> be3e95a7f03a862c2c6f57dfd97567d69c874875
 
 
         <Contact />
