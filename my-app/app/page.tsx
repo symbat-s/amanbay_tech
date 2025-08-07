@@ -1,13 +1,17 @@
+import Header from "./components/Header"
 import Banner from "./components/Banner";
-import BannerTwo from "./components/BannerTwo";
 import AboutBanner from "./components/AboutSection";
+import BannerTwo from "./components/BannerTwo";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
-    <div className="mx-auto px-4 sm:px-6 lg:px-8 max-w-[1536px]">
+    <div>
+      <Header />
       <Banner />
-      <BannerTwo />
       <AboutBanner/>
+      <BannerTwo />
+      <Footer />
     </div>
   );
-}
+} 
