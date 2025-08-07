@@ -14,6 +14,9 @@ export default function Footer(){
             <li>Collection and processing of personal data</li>
             <li>Frequently asked questions</li>
           </ul>
+          <div>
+            telegram
+          </div>
         </div> 
   )
 }

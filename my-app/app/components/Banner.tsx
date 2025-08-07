@@ -20,7 +20,7 @@ export default function Banner() {
           <p>
             Empower Your Business for the Digital Age – <br />Cutting-Edge Web,
             Mobile Development,
-            <br />and DevOps Solutions for Your Success!
+            and DevOps Solutions for Your Success!
           </p>
         </div>
 
