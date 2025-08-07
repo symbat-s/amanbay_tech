@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, { useState , useEffect } from "react";
 
 export default function DisappearingHeader() {
   const [isVisible, setIsVisible] = useState(true);
@@ -41,10 +41,8 @@ export default function DisappearingHeader() {
   }
 
   const menuItems = {
-    Projects: ['Web Development', 'Mobile Apps', 'AI Solutions'],
-    Services: ['Consulting', 'Development', 'Maintenance'],
-    Solutions: ['Cloud', 'DevOps', 'Security'],
-    Company: ['About Us', 'Team', 'Careers', 'Contact']
+    Solutions: [ 'DevOps', 'Security'],
+    Company: ['About Us',  'Contact']
   };
 
   const toggleMenu = (menu: string) => {
@@ -61,17 +59,20 @@ export default function DisappearingHeader() {
           <img 
             src="/Logo.png" 
             alt="Amanbay Tech Logo" 
-            className="h-15 transition-transform duration-300 group-hover:scale-105" 
+            className="" 
           />
         </div>
-
+         <div className="text-white/60 text-xl font-medium transition-colors duration-300  items-center ml-[380px]">
+        <a href="http://localhost:3000/"><button className=" hover:text-[#d9011c]">Projects</button></a>
+       <a href="#" ><button className="ml-[80px]  hover:text-[#d9011c]">Services</button></a>
+       </div>
         {/* Навигация с выпадающими меню */}
-        <nav className="hidden md:flex space-x-25"> {/* Уменьшено space-x-6 до space-x-8 */}
+        <nav className="hidden md:flex space-x-20"> {/* Уменьшено space-x-6 до space-x-8 */}
           {Object.entries(menuItems).map(([key, items]) => (
             <div key={key} className="relative">
               <button 
                 onClick={() => toggleMenu(key)}
-                className="text-white/60 hover:text-[#d9011c] text-3xl font-medium transition-colors duration-300 flex items-center" /* Увеличен шрифт до text-xl */
+                className="text-white/60 hover:text-[#d9011c] text-xl font-medium transition-colors duration-300 flex items-center" /* Увеличен шрифт до text-xl */
               >
                 {key}
                 <svg 
