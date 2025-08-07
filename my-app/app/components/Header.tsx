@@ -58,20 +58,21 @@ export default function DisappearingHeader() {
       <div className="container mx-auto px-4 sm:px-6 flex justify-between items-center">
         {/* Логотип с уменьшенным отступом */}
         <div className="flex items-center group mr-8"> {/* Добавлен mr-8 для уменьшения расстояния */}
+          <a href="http://localhost:3000/">
           <img 
             src="/Logo.png" 
             alt="Amanbay Tech Logo" 
-            className="h-15 transition-transform duration-300 group-hover:scale-105" 
-          />
+            className="h-10 transition-transform duration-100 group-hover:scale-110" 
+          /></a>
         </div>
 
         {/* Навигация с выпадающими меню */}
-        <nav className="hidden md:flex space-x-25"> {/* Уменьшено space-x-6 до space-x-8 */}
+        <nav className="hidden md:flex space-x-20"> {/* Уменьшено space-x-6 до space-x-8 */}
           {Object.entries(menuItems).map(([key, items]) => (
             <div key={key} className="relative">
               <button 
                 onClick={() => toggleMenu(key)}
-                className="text-white/60 hover:text-[#d9011c] text-3xl font-medium transition-colors duration-300 flex items-center" /* Увеличен шрифт до text-xl */
+                className="text-white/60 hover:text-[#d9011c] text-xl font-medium transition-colors duration-300 flex items-center" /* Увеличен шрифт до text-xl */
               >
                 {key}
                 <svg 
