@@ -16,7 +16,7 @@ export default function Banner() {
           </div>
         </div>
 
-        <div className="max-w-3xl text-base sm:text-lg md:text-xl leading-relaxed">
+        <div className="max-w-3xl text-[#babbbb] text-base sm:text-lg md:text-xl leading-relaxed">
           <p>
             Empower Your Business for the Digital Age – <br />Cutting-Edge Web,
             Mobile Development,
@@ -25,11 +25,11 @@ export default function Banner() {
         </div>
 
         <div className="flex flex-wrap gap-4 mt-6">
-          <button className="text-lg sm:text-xl bg-[#c01f26] hover:bg-[#c01f2796] text-white px-6 py-3 rounded-[30px]">
+          <button className="text-lg sm:text-xl bg-[#c01f26] hover:bg-[#c01f2796] text-[#babbbb] px-6 py-3 rounded-[30px]">
             Our services
           </button>
-          <button className="text-lg sm:text-xl border-2 border-white/50 text-white hover:bg-[#babbbb] hover:text-[black] px-6 py-3 rounded-[30px]">
-           
+          <button className="text-lg sm:text-xl border-2 border-white/50 text-[#babbbb] hover:bg-[#babbbb] hover:text-[black] px-6 py-3 rounded-[30px]">
+           Contract Us
           </button>
         </div>
       </div>

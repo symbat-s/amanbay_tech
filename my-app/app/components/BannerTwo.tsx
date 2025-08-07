@@ -4,11 +4,11 @@ function BannerTwo (){
      <div>
       <img src="image/ofice.png" alt="ofice"  className="w-[386px] h-[257px] mt-[120px]"/>      
      <img src="image/videogame.png" alt="videogame"  className="w-[386px] h-[257px] mt-[20px]"/> 
-      <div className="w-[386px] h-[50px] bg-[#C01F26] mt-[20px]"></div>
+      <div className="w-[385px] h-[52px] bg-[#C01F26] mt-[20px]"></div>
      </div>
      
        <div>
-         <img src="image/social.png" alt="social"  className=" hidden md:block w-full h-auto  mt-[120px] ml-[20px]"/>
+         <img src="image/social.png" alt="social"  className=" hidden md:block w-[405px] h-[605px]  mt-[120px] ml-[20px]"/>
        </div>
 
          <div className="ml-[40px] mt-[120px]">

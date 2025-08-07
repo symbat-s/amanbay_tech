@@ -75,7 +75,7 @@ export default function Footer(){
 
     </div>
 
-  <div className="pl-[40px] pr-[40px] w-full h-[70px] bg-[#302D2D] ">
+  <div className="md:pl-[40px] md:pr-[40px] w-full h-[70px] bg-[#302D2D] ">
      <div className="w-[1400px] h-[2px] bg-[#D4D4D4] "></div>
      <div className="text-[white] font-inter text-center mt-[30px]" >© 2025 Amanbay tech® Global Inc</div>
   </div>
