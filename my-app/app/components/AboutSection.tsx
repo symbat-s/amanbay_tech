@@ -5,7 +5,7 @@ export default function AboutBanner(){
   return (
     <div className="relative w-full h-[300px] my-10">
       <Image
-        src="/red_team.png"
+        src="/image/red_team.png"
         alt="team"
         fill
         priority
