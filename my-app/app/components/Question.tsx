@@ -1,5 +1,3 @@
-import Contact from "./Contact";
-
 export default function Question(){
   return (
     <div className="bg-white">
@@ -8,13 +6,12 @@ export default function Question(){
           Contact
         </h1>
         <iframe
-          src="https://yandex.kz/map-widget/v1/?ll=66.904492%2C48.551793&z=4"
+          src="https://2gis.kz/shymkent/firm/70000001098624861?m=69.606673%2C42.341667%2F16"
           width="100%"
           height="400"
           style={{ border: 0 }}
           allowFullScreen
         ></iframe>
-        <Contact/>
       </div>
     </div>
   );
