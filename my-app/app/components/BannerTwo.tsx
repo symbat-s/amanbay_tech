@@ -1,32 +1,35 @@
 function BannerTwo (){
    return (
-    <div className="ml-17 tracking-wider flex md:text-2xl" style={{ fontFamily: "Poppins" }}>
-     <div>
-      <img src="image/ofice.png" alt="ofice"  className="w-[386px] h-[257px] mt-[120px]"/>      
-     <img src="image/videogame.png" alt="videogame"  className="w-[386px] h-[257px] mt-[20px]"/> 
-      <div className="w-[385px] h-[52px] bg-[#C01F26] mt-[20px]"></div>
-     </div>
-     
-       <div>
-         <img src="image/social.png" alt="social"  className=" hidden md:block w-[405px] h-[605px]  mt-[120px] ml-[20px]"/>
-       </div>
+    <div className="flex font-medium" >
 
-         <div className="ml-[40px] mt-[120px]">
-            <div className="text-[#D91C1C] text-sm">About Amanbay Tech</div>
-              <div className="mt-[20px]">
-                   <div className="text-2xl">Full-Service Software</div>
-                   <div className="text-3xl font-bold">Development Company</div>
-                 <div className="w-[420px] h-[390px] text-2xl mt-[20px] font-medium">Amanbay Tech is a software development team that specializes
-                   in website and mobile app development, as well as process automation.
-                    Our custom solutions are designed to help businesses improve their
-                     digital presence, streamline operations, and increase profitability.
-                      With a team of experienced developers, Amanbay Tech is committed to
-                       delivering top-quality software solutions that meet the unique needs
-                        of each client.
-                  </div>
-                    <button className="bg-[#C01F26] hover:bg-[#c01f2796] text-[white] text-2xl w-[215px] h-[50px] rounded-[30px] mt-[35px]">Read more</button>
-              </div>
-         </div>
+      <div className="w-[45px] h-[45px] text-2xl ml-[125px] mt-[130px] z-20  rounded-[50%] absolute text-center items-center font-bold bg-[white] border-[#00000014] border-[1px]" ><div className="mt-[5px]">1</div></div>
+      <div className="w-[45px] h-[45px] text-2xl ml-[225px] mt-[410px] z-20   rounded-[50%] absolute text-center items-center  font-bold bg-[white] border-[#00000014] border-[1px]" ><div className="mt-[5px]">2</div></div>
+     <div className="w-[45px] h-[45px] text-2xl   ml-[125px] mt-[680px] z-20  rounded-[50%]  absolute text-center items-center bg-[white] font-bold border-[#00000014] border-[1px]" ><div className="mt-[5px]">3</div></div>
+     
+     <div className="ml-[150px] mt-[150px] absolute">
+      <div className="w-[490px] h-[180px]    border-[#00000014] border-[1px] p-[20px] z-10">
+        <h1 className="text-[#505050] text-[25px] " >Technical expertise</h1>
+        <p className="font-light text-[#505050] mt-[8px]">Our team is proficient in modern programming languages, frameworks, and architectures. We offer stable, performant, and scalable solutions for everything from startups to enterprise systems.</p>
+      </div>
+
+     
+      <div className="w-[490px] h-[170px]  border-[#00000014] border-[1px] p-[20px] ml-[100px] mt-[100px]  z-10">
+        <h1 className="text-[#505050] text-[28px] " >Customized approach</h1>
+        <p className="font-light text-[#505050] mt-[8px]">We start with a deep understanding of your business <br /> objectives and create solutions that align with your goals. <br /> No templates, just what truly works for you</p>
+      </div>
+
+      
+      <div className="w-[490px] h-[170px]  border-[#00000014] border-[1px] p-[20px] mt-[100px]  z-10">
+        <h1 className="text-[#505050] text-[28px] " >Accountability for results</h1>
+        <p className="font-light text-[#505050] mt-[8px]">We don't just deliver a task; we take responsibility for the project's success. Timely feedback, transparent processes, and quality control are the key to your peace of mind.</p>
+      </div>
+     </div>
+
+     <div className="w-[780px] h-[247px] mt-[280px]  ml-[850px] absolute z-10 ">
+      <h1 className="text-[#505050] text-4xl mr-[20px]">Why should you choose our services?</h1>
+      <p  className="text-[#505050] mt-[25px]">In a world where digital technologies are changing on a daily <br /> basis,</p>
+      <p  className="text-[#505050] mt-[15px]"> it's important to trust those who are not just keeping up with <br /> the times but also shaping the trends. Here's what makes us  <br />truly special:</p>
+     </div>
     </div>
    )
    
