@@ -50,7 +50,7 @@ export default function DisappearingHeader() {
   };
 
   return (
-    <header className={`fixed top-0 left-0 w-full bg-black/30 backdrop-blur-sm z-50 py-3 transition-transform duration-500 ${
+    <header className={`fixed top-0 left-0 w-full backdrop-blur-sm z-50 py-3 transition-transform duration-500 ${
       isVisible ? 'translate-y-0' : '-translate-y-full'
     }`}>
       <div className="container mx-auto px-4 sm:px-6 flex justify-between items-center">
@@ -62,7 +62,7 @@ export default function DisappearingHeader() {
             className="" 
           />
         </div>
-         <div className="text-white/60 text-xl font-medium transition-colors duration-300  items-center ml-[380px]">
+         <div className="text-black text-xl font-medium transition-colors duration-300  items-center ml-[380px]">
         <a href="http://localhost:3000/"><button className=" hover:text-[#d9011c]">Projects</button></a>
        <a href="#" ><button className="ml-[80px]  hover:text-[#d9011c]">Services</button></a>
        </div>
@@ -72,7 +72,7 @@ export default function DisappearingHeader() {
             <div key={key} className="relative">
               <button 
                 onClick={() => toggleMenu(key)}
-                className="text-white/60 hover:text-[#d9011c] text-xl font-medium transition-colors duration-300 flex items-center" /* Увеличен шрифт до text-xl */
+                className="text-black hover:text-[#d9011c] text-xl font-medium transition-colors duration-300 flex items-center" /* Увеличен шрифт до text-xl */
               >
                 {key}
                 <svg 
