@@ -8,7 +8,7 @@ export default function Banner() {
      <div className="md:ml-15 mt-20 p-10 md:mt-50 space-y-5 ">
       <h1 className='w-2/3  text-[#505050] text-2xl md:text-5xl'><span className='font-bold text-3xl md:text-7xl'>Welcome to </span>Amanbay tech!</h1>  
       <p className='text-[#505050] text-lg md:text-xl'>Empowering Your Business with Web, Mobile & DevOps Solutions</p>
-      <Link href="#services" className='border border-[#505050] text-sm md:text-lg text-[#505050] font-bold p-2 md:py-3 md:px-5 rounded-4xl'>Our services</Link>
+      <Link href="#contact" className='border border-[#505050] text-sm md:text-lg text-[#505050] font-bold p-2 md:py-3 md:px-5 rounded-4xl'>Our services</Link>
      </div>
      <Image 
       src="/foto/banner.png" 
