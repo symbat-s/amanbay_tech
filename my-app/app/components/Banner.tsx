@@ -1,48 +1,31 @@
-// import Image from "next/image";
-// export default function Banner() {
-//   return (
-
-//      <div className="flex gap-[225px]"style={{ fontFamily: "Poppins" }}>
-//         <div>
-//         <div className="w-[690px] h-[240px] mt-[200px] ml-[89px] text-bold text-8xl"><span className="text-[#EA4D46]">Welocome to </span> Amanbay Tech!</div>
-//         <div className="w-[705px] h-[144px] text-[35px] ml-[89px]">Empower Your Business for the Digital Age - Cutting-Edge Web, Mobile Development, and DevOps Solutions for Your Success!</div>
-//         <a href=""><button className="w-[250px] h-[65px] ml-[80px] bg-[#EA4D46] text-[white] text-center text-2xl rounded-[10px] mt-[70px]">Show services</button></a>
-//     <div
-//       className="w-full h-screen bg-cover bg-center z-[-1] flex items-center justify-center px-6 "
-//       style={{ backgroundImage: "url('image/Peak.png')" }}
-//     >
-//       <div className="max-w-[1200px] w-full flex flex-col items-start gap-10 text-white ">
-//         <div className="space-y-4">
-//           <div className="text-[#d9011c] text-3xl sm:text-4xl md:text-5xl font-bold">
-//             Welcome to
-//           </div>
-//           <div className="text-[#babbbb] text-2xl sm:text-3xl md:text-4xl font-semibold">
-//             Amanbay Tech!
-//           </div>
-//         </div>
-
-//         <div className=" text-[#FEEBEB]  sm:text-lg md:text-2xl leading-relaxed tracking-wide" style={{ fontFamily: "Urbanist" }}>
-//           <p>
-//             Empower Your Business for the Digital Age – <br />Cutting-Edge Web,
-//             Mobile Development,
-//             and DevOps <br /> Solutions for Your Success!
-//           </p>
-//         </div>
-
-//         <div>
-//            <Image src="/image/PeakBanner.png" alt="Баннер" width={466} height={400} className="absolute mr-[50px]" />
-//         </div>
-//      </div>
-//   );
-// }
-'use client';
-
-import React from 'react';
+import { Roboto } from 'next/font/google';
+import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Banner() {
   return (
-    <div className="w-full h-[300px] bg-blue-500 flex items-center justify-center">
-      <h1 className="text-white text-3xl font-bold">Welcome to the Banner!</h1>
+    <div className='md:flex block gap-15'>
+     <div className="md:ml-15 mt-20 p-10 md:mt-50 space-y-5 ">
+      <h1 className='w-2/3  text-[#505050] text-2xl md:text-5xl'><span className='font-bold text-3xl md:text-7xl'>Welcome to </span>Amanbay tech!</h1>  
+      <p className='text-[#505050] text-lg md:text-xl'>Empowering Your Business with Web, Mobile & DevOps Solutions</p>
+      <Link href="#services" className='border border-[#505050] text-sm md:text-lg text-[#505050] font-bold p-2 md:py-3 md:px-5 rounded-4xl'>Our services</Link>
+     </div>
+     <Image 
+      src="/foto/banner.png" 
+      alt="laptop"
+      width={970}
+      height={650}
+      className='absolute hidden md:block md:ml-100'/>
+     <div className="md:mt-30 pt-10">
+        <Image
+          src="/foto/laptop.png"
+          alt="laptop"
+          width={550}
+          height={550}
+          className='object-contain relative'
+        />
+      </div>
     </div>
   );
 }
+
