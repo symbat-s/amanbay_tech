@@ -9,7 +9,7 @@ const BannerTwo: React.FC = () => {
       </div>
 
       <div className="absolute top-0 right-8  transform -translate-x-1/2 z-0 ">
-        <img src="foto/item2  .png" alt="фон" className=" w-[1200px] h-[1200px] max-w-none max-h-none" />
+        <img src="foto/item2.png" alt="фон" className=" w-[1200px] h-[1200px] max-w-none max-h-none" />
       </div>
  
        <div className="w-[45px] h-[45px] rounded-full  border-[#00000014] border-[1px] bottom-[850px] mr-[1285px] absolute bg-[white] text-black text-center text-2xl flex items-center justify-center z-30">
