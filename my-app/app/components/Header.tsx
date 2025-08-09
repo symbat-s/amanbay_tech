@@ -1,11 +1,10 @@
 "use client";
 
-import React, { useState , useEffect } from "react";
+import React, { useState, useEffect } from "react";
 
 export default function DisappearingHeader() {
   const [isVisible, setIsVisible] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
-  const [activeMenu, setActiveMenu] = useState<string | null>(null);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -13,7 +12,6 @@ export default function DisappearingHeader() {
       
       if (currentScrollY > lastScrollY && currentScrollY > 100) {
         setIsVisible(false);
-        setActiveMenu(null); // Закрываем меню при скролле
       } else if (currentScrollY < lastScrollY) {
         setIsVisible(true);
       }
@@ -41,12 +39,8 @@ export default function DisappearingHeader() {
   }
 
   const menuItems = {
-    Solutions: [ 'DevOps', 'Security'],
-    Company: ['About Us',  'Contact']
-  };
-
-  const toggleMenu = (menu: string) => {
-    setActiveMenu(activeMenu === menu ? null : menu);
+    Solutions: ['DevOps', 'Security'],
+    Company: ['About Us', 'Contact']
   };
 
   return (
@@ -54,29 +48,42 @@ export default function DisappearingHeader() {
       isVisible ? 'translate-y-0' : '-translate-y-full'
     }`}>
       <div className="container mx-auto px-4 sm:px-6 flex justify-between items-center">
-        {/* Логотип с уменьшенным отступом */}
-        <div className="flex items-center group mr-8"> {/* Добавлен mr-8 для уменьшения расстояния */}
+        {/* Логотип */}
+        <div className="flex items-center group mr-8">
           <img 
-            src="/Logo.png" 
+            src="/Logo2.jpg" 
             alt="Amanbay Tech Logo" 
             className="" 
           />
         </div>
-         <div className="text-black text-xl font-medium transition-colors duration-300  items-center ml-[380px]">
-        <a href="http://localhost:3000/"><button className=" hover:text-[#d9011c]">Projects</button></a>
-       <a href="#" ><button className="ml-[80px]  hover:text-[#d9011c]">Services</button></a>
-       </div>
+        
+        {/* Основные пункты меню */}
+        <div className="text-black text-xl font-medium flex items-center ml-[380px]">
+          <a href="http://localhost:3000/">
+            <button className="relative group px-2 py-1">
+              Projects
+              <span className="absolute bottom-0 left-0 w-full h-[2px] bg-[#505050] transform scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
+            </button>
+          </a>
+          <a href="#">
+            <button className="ml-[80px] relative group px-2 py-1">
+              Services
+              <span className="absolute bottom-0 left-0 w-full h-[2px] bg-[#505050] transform scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
+            </button>
+          </a>
+        </div>
+        
         {/* Навигация с выпадающими меню */}
-        <nav className="hidden md:flex space-x-20"> {/* Уменьшено space-x-6 до space-x-8 */}
+        <nav className="hidden md:flex space-x-20">
           {Object.entries(menuItems).map(([key, items]) => (
-            <div key={key} className="relative">
+            <div key={key} className="relative group">
               <button 
-                onClick={() => toggleMenu(key)}
-                className="text-black hover:text-[#d9011c] text-xl font-medium transition-colors duration-300 flex items-center" /* Увеличен шрифт до text-xl */
+                className="text-black text-xl font-medium flex items-center px-2 py-1 relative"
               >
                 {key}
+                <span className="absolute bottom-0 left-0 w-full h-[2px] bg-[#505050] transform scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
                 <svg 
-                  className={`w-4 h-4 ml-1 transition-transform ${activeMenu === key ? 'rotate-180' : ''}`}
+                  className="w-4 h-4 ml-1 transition-transform group-hover:rotate-180"
                   fill="none" 
                   stroke="currentColor" 
                   viewBox="0 0 24 24"
@@ -86,25 +93,23 @@ export default function DisappearingHeader() {
               </button>
               
               {/* Выпадающее меню */}
-              {activeMenu === key && (
-                <div className="absolute top-full left-0 mt-2 w-56 bg-black/90 rounded-md shadow-xl py-2 z-50 backdrop-blur-sm border border-gray-700">
-                  {items.map((item) => (
-                    <a 
-                      key={item}
-                      href="#"
-                      className="block px-4 py-3 text-white/90 hover:text-[#d9011c] hover:bg-gray-800/50 transition-colors duration-200 text-lg" /* Увеличен шрифт до text-lg */
-                    >
-                      {item}
-                    </a>
-                  ))}
-                </div>
-              )}
+              <div className="absolute top-full left-0 mt-2 w-56 bg-black/90 rounded-md shadow-xl py-2 z-50 backdrop-blur-sm border border-gray-700 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
+                {items.map((item) => (
+                  <a 
+                    key={item}
+                    href="#"
+                    className="block px-4 py-3 text-white/90 hover:text-white hover:bg-[#505050] transition-colors duration-200 text-lg"
+                  >
+                    {item}
+                  </a>
+                ))}
+              </div>
             </div>
           ))}
         </nav>
 
         {/* Мобильное меню */}
-        <button className="md:hidden text-white/90">
+        <button className="md:hidden text-black">
           <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
           </svg>
