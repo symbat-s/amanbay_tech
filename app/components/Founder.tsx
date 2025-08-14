@@ -1,4 +1,4 @@
-import data from "@/data/founder.json";
+import data from "@/data/Founder.json";
 
 export default function Founder() {
   const { name, title, description, photo } = data.founder;
