@@ -1,4 +1,4 @@
-import info from "@/Data/InfoUs.json";
+import info from "@/data/InfoUs.json";
 import Image from 'next/image';
 
 export default function InfoUs() {
