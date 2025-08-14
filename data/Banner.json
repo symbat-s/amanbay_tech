@@ -1,0 +1,28 @@
+[
+  {
+    "title": {
+      "main": "Amanbay Tech",
+      "highlight": "Растите с инновациями!"
+    },
+    "subtitle": "Мы создаём современные сайты, мобильные приложения и IT-решения, которые двигают ваш бизнес вперёд.",
+    "button": {
+      "text": "Наши услуги",
+      "link": "/service"
+    },
+    "images": {
+      "main": {
+        "src": "/foto/banner.png",
+        "alt": "banner",
+        "width": 820,
+        "height": 650
+      },
+      "secondary": {
+        "src": "/foto/laptop.png",
+        "alt": "laptop",
+        "width": 650,
+        "height": 550
+      }
+      }
+  
+}
+]
