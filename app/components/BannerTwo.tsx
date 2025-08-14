@@ -6,7 +6,7 @@ const BannerTwo: React.FC = () => {
    const index3 = BannerTwoData[2];
    const index4 = BannerTwoData[3];
   return (
-    <div className=" w-full lg:mt-[200px] bg-[url(/foto/item.png)] bg-center bg-cover h-[1000px] py-2 srelative w-full flex justify-center pl-10">
+    <div className=" w-full lg:mt-[200px] bg-[url(/foto/item.png)] bg-center bg-cover h-[1000px] py-2 srelative w-full flex justify-center md:pl-23">
       <div className="relative z-20 flex flex-col gap-[130px] right-[110px] " >
      
         <div className="relative flex items-start gap-4  transition-transform duration-300 ease-out hover:scale-105">
