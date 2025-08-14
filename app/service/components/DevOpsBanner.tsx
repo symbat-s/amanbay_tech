@@ -8,7 +8,7 @@ export default function DevOpsBanner () {
            <div className="w-[450px] h-[480px] ">
              <div className="text-4xl font-medium">{service3.title}</div>
              <p className="mt-[40px] text-[#505050]">{service3.description}</p>
-             <ul className="list-disc ml-[20px] mt-[60px]">
+             <ul className="list-disc ml-5 mt-[60px]">
                 <li>{service3.services[0]}</li>
                 <li className="mt-[20px]">{service3.services[1]}</li>
                 <li className="mt-[20px]">{service3.services[2]}</li>
