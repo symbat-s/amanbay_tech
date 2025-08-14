@@ -10,7 +10,7 @@ export default function PeakBanner () {
            
            
            <img src="/foto/computer(2).png" className=" w-[350px] h-[390px] mt-[140px]"/>
-           <img src="/foto/computer.png" alt="Service Image" className="w-[410px] h-[320px] mt-[280px] ml-[150px]"/>
+           <img src="/foto/computer.png" alt="Service Image" className="w-[410px] h-[320px] mt-[280px] ml-25"/>
 
            
         </div>
