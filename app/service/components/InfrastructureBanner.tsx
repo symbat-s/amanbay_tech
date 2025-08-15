@@ -3,7 +3,7 @@ export default function InfrastructureBanner() {
     const service4 =  services[3]
     return(
        <div className="mt-[200px] flex text-[#505050] px-[10%]">
-            <div className="w-1/2 h-[480px]">
+            <div className="w-[450px] h-[480px]">
              <div className="text-4xl font-medium">{service4.title}</div>
              <p className="mt-[40px] text-[#505050]">{service4.description}</p>
              <ul className="list-disc ml-[20px] mt-[60px]">
