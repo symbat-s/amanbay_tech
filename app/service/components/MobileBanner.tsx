@@ -14,7 +14,7 @@ export default function MobileBanner() {
                 <li className="mt-[20px]">{service2.services[4]}</li>
              </ul>
            </div>
-            <img src="foto/graphic(4).png" alt="Web"  className="w-[700px] h-[500px] "/>
+            <img src="foto/graphic(4).png" alt="Web"  className="w-[600px] h-[500px] "/>
         </div>
     )
 }
