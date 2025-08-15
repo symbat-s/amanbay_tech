@@ -11,7 +11,7 @@ export default function InfoUs() {
        height={611}
        className='absolute hidden md:block md:ml-100'
        />  */}
-      <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+      <div className="mx-auto px-4 grid grid-cols-1 md:grid-cols-4 md:gap-5 text-center">
         {info.InfoUs.map((item, index) => (
           <div key={index}>
             <div className="text-4xl font-bold text-black">{item.value}</div>

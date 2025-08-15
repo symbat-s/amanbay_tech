@@ -28,7 +28,7 @@ export default function Contact() {
   };
   return (
     <div>
-       <h1 className="font-bold text-5xl text-center my-10" style={{ fontFamily: "Inter" }}>
+       <h1 className="font-bold md:text-5xl text-xl text-center my-10" style={{ fontFamily: "Inter" }}>
           Контакты
         </h1>
 
@@ -41,7 +41,7 @@ export default function Contact() {
         ></iframe>
     
     <div className="bg-white">
-      <div className="flex justify-between pl-20 mt-10">
+      <div className="md:flex block justify-between pl-5 md:pl-20 mt-10">
         <div className="w-full ">
           <h1 className="font-bold text-4xl" style={{ fontFamily: "Inter" }}>У вас остались вопросы?</h1>
           <p className="mt-5 text-sm">Напишите нам и наш менеджер с радостью на них ответит.</p>
@@ -78,7 +78,7 @@ export default function Contact() {
           </form>
         </div>
 
-        <div className="w-full ml-20">
+        <div className="w-full md:ml-20">
           <h1 className="font-bold text-4xl" style={{ fontFamily: "Inter" }}>Наш адрес</h1>
           <p className="mt-3 text-sm">г. Шымкент, проспект Конаева 20/1</p>
 
@@ -116,7 +116,7 @@ export default function Contact() {
             </div>
         </div>
           </div>
-        <h1 className="text-sm mt-7 w-[470px]">По всем вопросам, связанным с программным обеспечением Amanbay tech, пожалуйста, звоните по телефону</h1>
+        <h1 className="text-sm mt-7 md:w-[470px]">По всем вопросам, связанным с программным обеспечением Amanbay tech, пожалуйста, звоните по телефону</h1>
         <h1 className="font-bold text-black mt-5 text-lg">+7 777 060 80 31</h1>
         </div>
       </div>
