@@ -1,7 +1,6 @@
 "use client";
 import React, { useState } from 'react';
 import Solution from "@/data/Solution.json";
-import { Margarine } from 'next/font/google';
 const Problem: React.FC = () => {
 const { VMI, TechnoLine, Amazon, OMS, Orken , AmazonLogo, VMILogo , OMSLogo , OrkenLogo , TechnoLineLogo} = Solution[0];
 const slides = [
@@ -10,7 +9,6 @@ const slides = [
     logo:VMILogo.src,
     logoWidth:VMILogo.width,
     logoHeight:VMILogo.height,
-    style: { left: VMILogo.left },
     problem: VMI[1],
     problem2: VMI[2],
     problem3: VMI[3],
@@ -54,7 +52,6 @@ const slides = [
      logo:  OrkenLogo.src,
     logoWidth: OrkenLogo .width,
     logoHeight:  OrkenLogo .height,
-    style: { left: OrkenLogo.left },
     problem: Orken[1],
     solution: Orken[2],
     bgColor: 'bg-white',
@@ -75,7 +72,7 @@ const slides = [
  return (
     <div className="p-35">
       <div className={`w-full  p-10 rounded-2xl shadow-2xl border-[#D9D9D9] border-[1px] ${slides[current].bgColor}`}>
-        <p className="font-bold text-2xl mb-5 gap-70 flex">{slides[current].title} <img src={slides[current].logo} alt="logo" width={slides[current].logoWidth} height={slides[current].logo} style={slides[current].style}  /></p>
+        <p className="font-bold text-2xl mb-5 gap-70 flex">{slides[current].title} <img src={slides[current].logo} alt="logo" width={slides[current].logoWidth} height={slides[current].logo}   /></p>
         <p className="mb-4 text-base leading-relaxed">
           <span className="font-bold">Проблема: </span>
           <span className="text-gray-800">{slides[current].problem}</span>
