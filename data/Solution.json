@@ -68,8 +68,7 @@
         "src": "/foto/VMI.png",
         "alt": "VMI",
         "width": 100,
-        "height": 78,
-        "left": "150px"
+        "height": 78
       },   
       "TechnoLineLogo": {
         "src": "/foto/Techno.png",
@@ -87,8 +86,7 @@
             "src": "/foto/Orken.png",
             "alt": "Orken",
             "width": 150,
-            "height": 100,
-            "left": "250px"
+            "height": 100
         } 
     }
 ]
