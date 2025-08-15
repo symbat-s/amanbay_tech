@@ -6,7 +6,7 @@ export default function DevOpsBanner () {
         <div className="mt-[200px] flex text-[#505050] px-[10%]">
             <img src="foto/graphic(3).png" alt="Web"  className="w-[700px] h-[500px]"  />
            <div className="w-[450px] h-[480px] ">
-             <div className="text-4xl font-medium">{service3.title}</div>
+             <div className="text-3xl font-medium">{service3.title}</div>
              <p className="mt-[40px] text-[#505050]">{service3.description}</p>
              <ul className="list-disc ml-[20px] mt-[60px]">
                 <li>{service3.services[0]}</li>

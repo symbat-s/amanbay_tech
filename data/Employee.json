@@ -1,0 +1,124 @@
+[
+  {
+    "title": {
+      "main": "Frontend разработчики"
+    },
+    "description":"Создают пользовательские интерфейсы и веб-приложения",
+    "image": {
+      "src": "/foto/frontend.png",
+      "alt": "frontend",
+      "width": 20,
+      "height": 20
+    },
+    "skills": [
+      { "name": "Node.js" },
+      { "name": "Nest.js" },
+      { "name": "Next.js" },
+      { "name": "TypeScript" },
+      { "name": "CSS/SASS" },
+      { "name": "Swagger" },
+      { "name": "React" }
+    ]
+  },
+  {
+    "title": {
+      "main": "Backend разработчики"
+    },
+    "description": "Разрабатывают серверную логику и API",
+    "image": {
+      "src": "/foto/backend.png",
+      "alt": "backend",
+      "width": 20,
+      "height": 20
+    },
+    "skills": [
+      { "name": "Nest.js" },
+      { "name": "Python" },
+      { "name": "Redis" },
+      { "name": "TypeScript" },
+      { "name": "FastAPI" },
+      { "name": "PostgreSQL" },
+      { "name": "AWS S3" }
+    ]
+  },
+  {
+    "title": {
+      "main": "Flutter разработчики"
+    },
+    "description": "Создают нативные и кроссплатформенные приложения",
+    "image": {
+      "src": "/foto/flutter.png",
+      "alt": "flutter",
+      "width": 20,
+      "height": 20
+    },
+    "skills": [
+      { "name": "Drift" },
+      { "name": "SQLite" },
+      { "name": "Dart" },
+      { "name": "Inno Setup" },
+      { "name": "Flutter" },
+      { "name": "iOS" },
+      { "name": "Android" }
+    ]
+  },
+  {
+    "title": {
+      "main": "DevOps инженеры"
+    },
+    "description":"Обеспечивают инфраструктуру и автоматизацию",
+    "image": {
+      "src": "/foto/devops.png",
+      "alt": "frontend",
+      "width": 20,
+      "height": 20
+    },
+    "skills": [
+      { "name": "Docker" },
+      { "name": "GitLab" },
+      { "name": "Docker Compose" },
+      { "name": "Nginx" },
+      { "name": "HashieorpVault" }
+    ]
+  },
+  {
+    "title": {
+      "main": "ML разработчики"
+    },
+    "description":"Эксперты по машинному обучению и ИИ, создающие модели для анализа данных и прогнозов",
+    "image": {
+      "src": "/foto/ml.png",
+      "alt": "frontend",
+      "width": 20,
+      "height": 20
+    },
+    "skills": [
+      { "name": "Manual Testing" },
+      { "name": "Automation" },
+      { "name": "Selenium" },
+      { "name": "Jest" },
+      { "name": "Swagger" }
+    ]
+  },
+  {
+    "title": {
+      "main": "QA инженеры"
+    },
+    "description":"Тестируют и обеспечивают качество продуктов",
+    "image": {
+      "src": "/foto/qa.png",
+      "alt": "frontend",
+      "width": 15,
+      "height": 15
+    },
+    "skills": [
+      { "name": "Python" },
+      { "name": "Pytorch" },
+      { "name": "Postgres" },
+      { "name": "AirPlow" },
+      { "name": "FastAPI" },
+      { "name": "Django" },
+      { "name": "Juputer" }
+    ]
+  }
+]
