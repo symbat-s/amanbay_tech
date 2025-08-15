@@ -1,0 +1,17 @@
+{
+  "title": "Программные разработки нового \n поколения",
+  "description": "Разрабатываем надёжные и масштабируемые IT-продукты, которые делают ваш бизнес сильнее. ",
+  "primaryButton": {
+    "text": "Get Started",
+    "link": "#"
+  },
+  "secondaryButton": {
+    "text": "How it Work",
+    "link": "#"
+  },
+  "images": [
+    "/image/portfolio/office.jpg",
+    "/image/portfolio/coding.jpg",
+    "/image/portfolio/bg_portfolio.png"
+  ]
+}
