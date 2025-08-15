@@ -12,7 +12,7 @@ const BannerTwo: React.FC = () => {
         <div className="relative flex items-start gap-4  transition-transform duration-300 ease-out hover:scale-105">
           
           <div className="bg-white border border-[#00000014] p-[20px] w-[490px] h-[210px] ">
-            <h1 className="text-[#505050] text-[25px] font-medium">{index2.title}</h1>
+            <h1 className="text-[#505050] md:text-[25px] text-sm font-medium">{index2.title}</h1>
             <p className="font-light text-[#505050] mt-[8px]">
               {index2.text}
             </p>
