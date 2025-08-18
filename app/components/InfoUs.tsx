@@ -13,8 +13,8 @@ export default function InfoUs() {
        />  */}
       <div className="mx-auto px-4 grid grid-cols-1 md:grid-cols-4 md:gap-5 text-center">
         {info.InfoUs.map((item, index) => (
-          <div key={index}>
-            <div className="text-4xl font-bold text-black">{item.value}</div>
+          <div className="border-r-1 border-[#C4C4C4] last:border-r-0" key={index}>
+            <div className=" text-4xl font-bold text-black">{item.value}</div>
             <div className="text-gray-600">{item.label}</div>
           </div>
         ))}
