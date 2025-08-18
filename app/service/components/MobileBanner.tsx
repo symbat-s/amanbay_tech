@@ -12,13 +12,13 @@ export default function DevOpsBanner() {
         <p className="mt-4 md:mt-[40px] text-[#505050] text-sm sm:text-base leading-relaxed">
           {service2.description}
         </p>
-        <ul className="list-disc ml-5 md:ml-[20px] mt-6 md:mt-[60px] text-sm sm:text-base">
-          <li>{service2.services[0]}</li>
-          <li className="mt-2 sm:mt-3 md:mt-[20px]">{service2.services[1]}</li>
-          <li className="mt-2 sm:mt-3 md:mt-[20px]">{service2.services[2]}</li>
-          <li className="mt-2 sm:mt-3 md:mt-[20px]">{service2.services[3]}</li>
-          <li className="mt-2 sm:mt-3 md:mt-[20px]">{service2.services[4]}</li>
-        </ul>
+        <ul className="list-disc ml-[20px] mt-[60px]">
+                 {service2.services.map((item: string, idx: number) => (
+                   <li key={idx} className={idx > 0 ? "mt-[20px]" : ""}>
+                     {item}
+                   </li>
+                 ))}
+               </ul>
       </div>
 
       <img

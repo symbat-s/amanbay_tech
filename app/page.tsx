@@ -7,6 +7,7 @@ import Founder from "./components/Founder";
 import InfoUs from "./components/InfoUs";
 
 
+
 export default function Home() {
   return (
     <div>

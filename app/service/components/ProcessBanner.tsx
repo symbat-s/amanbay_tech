@@ -19,12 +19,13 @@ export default function ProcessBanner() {
         <p className="mt-4 md:mt-[40px] text-[#505050] text-sm sm:text-base leading-relaxed">
           {service5.description}
         </p>
-        <ul className="list-disc ml-5 md:ml-[20px] mt-6 md:mt-[60px] text-sm sm:text-base">
-          <li>{service5.services[0]}</li>
-          <li className="mt-2 sm:mt-3 md:mt-[20px]">{service5.services[1]}</li>
-          <li className="mt-2 sm:mt-3 md:mt-[20px]">{service5.services[2]}</li>
-          <li className="mt-2 sm:mt-3 md:mt-[20px]">{service5.services[3]}</li>
-        </ul>
+         <ul className="list-disc ml-[20px] mt-[60px]">
+                  {service5.services.map((item: string, idx: number) => (
+                    <li key={idx} className={idx > 0 ? "mt-[20px]" : ""}>
+                      {item}
+                    </li>
+                  ))}
+                </ul>
       </div>
     </div>
   );
