@@ -92,13 +92,13 @@ const slides = [
           onClick={prevSlide}
           className="text-4xl"
         >
-          ← 
+        <img src="/foto/chevron.png" className='w-20' alt="стрелка" />
         </button>
         <button
           onClick={nextSlide}
           className="text-4xl"
         >
-           →
+           <img src="/foto/chevron.png" className='w-20 rotate-180' alt="стрелка" />
         </button>
       </div>
     </div>
