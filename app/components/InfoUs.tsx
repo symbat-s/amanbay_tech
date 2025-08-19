@@ -20,12 +20,12 @@ export default function InfoUs() {
         ))}
       </div>
 
-              <div className="md:flex gap-15 w-full h-70 mt-30 px-10">
+              <div className="md:flex gap-10 w-full h-70 mt-30 pr-20 pl-20">
                  <img src="/foto/info1.png" alt="info1"  className="w-75 h-35"/>
-                  <img src="/foto/info2.png" alt="info2"  className="w-75 h-50"/>
-                   <img src="/foto/info3.png" alt="info3"  className="w-75 h-50"/>
-                    <img src="/foto/info4.png" alt="info4"  className="w-75 h-50"/>
-                     <img src="/foto/info5.png" alt="info5"  className="w-75 h-50"/>                
+                  <img src="/foto/info2.png" alt="info2"  className="w-60 h-50"/>
+                   <img src="/foto/info3.png" alt="info3"  className="w-60 h-50"/>
+                    <img src="/foto/info4.png" alt="info4"  className="w-60 h-50"/>
+                     <img src="/foto/info5.png" alt="info5"  className="w-60 h-50"/>                
               </div>
     </div>
   );
