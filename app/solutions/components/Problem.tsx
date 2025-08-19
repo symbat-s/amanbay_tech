@@ -70,18 +70,18 @@ const slides = [
   };
 
  return (
-    <div className="p-35">
-      <div className={`w-full  p-10 rounded-2xl shadow-2xl border-[#D9D9D9] border-[1px] ${slides[current].bgColor}`}>
+    <div className="px-40 pt-20 pb-10">
+      <div className={`w-full  p-10 rounded-2xl shadow-2xl border-[#D9D9D9] border-[1px] transition-transform duration-300 ease-out hover:scale-105 ${slides[current].bgColor}`}>
         <p className="font-bold text-2xl mb-5 gap-70 flex">{slides[current].title} <img src={slides[current].logo} alt="logo" width={slides[current].logoWidth} height={slides[current].logo}   /></p>
         <p className="mb-4 text-base leading-relaxed">
-          <span className="font-bold">Проблема: </span>
+          <span className="font-bold">Проблема: <br/></span>
           <span className="text-gray-800">{slides[current].problem}</span>
           {slides[current].problem2 && <><br /><span className="text-gray-800">{slides[current].problem2}</span></>}
           {slides[current].problem3 && <><br /><span className="text-gray-800">{slides[current].problem3}</span></>}
           {slides[current].problem4 && <><br /><span className="text-gray-800">{slides[current].problem4}</span></>}
         </p>
         <p className="text-base leading-relaxed">
-          <span className="font-bold">Решение: </span>
+          <span className="font-bold">Решение: <br /></span>
           <span className="text-gray-800">{slides[current].solution}</span>
           {slides[current].solution1 && <><br /><span className="text-gray-800">{slides[current].solution1}</span></>}
           {slides[current].solution2 && <><br /><span className="text-gray-800">{slides[current].solution2}</span></>}
