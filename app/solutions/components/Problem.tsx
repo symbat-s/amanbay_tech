@@ -70,7 +70,7 @@ const slides = [
   };
 
  return (
-    <div className="p-35">
+    <div className="px-40 pt-20 pb-10">
       <div className={`w-full  p-10 rounded-2xl shadow-2xl border-[#D9D9D9] border-[1px] transition-transform duration-300 ease-out hover:scale-105 ${slides[current].bgColor}`}>
         <p className="font-bold text-2xl mb-5 gap-70 flex">{slides[current].title} <img src={slides[current].logo} alt="logo" width={slides[current].logoWidth} height={slides[current].logo}   /></p>
         <p className="mb-4 text-base leading-relaxed">
