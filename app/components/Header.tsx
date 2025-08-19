@@ -47,7 +47,7 @@ export default function DisappearingHeader() {
         
         
         <div className="flex items-center group mr-8">
-          <Link href="#">
+          <Link href="/">
             <img 
               src="/Logo2.png" 
               alt="Amanbay Tech Logo" 
