@@ -22,7 +22,7 @@ export default function InfoUs() {
         ))}
       </div>
 
-              <div className="flex  gap-15 w-full h-70 mt-20 px-10 ">
+              <div className="md:flex gap-15 w-full h-70 mt-20 px-10 ">
                  <div className="p-4 w-65 h-25 border-[#FAFAFA]  transition-transform duration-300 ease-out shadow-lg shadow-[#00000040] hover:scale-105 border-[1px] rounded-2xl bg-[white] z-50">
                    <p>{about[0]}</p>
                  </div>
