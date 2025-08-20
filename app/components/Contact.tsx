@@ -46,7 +46,7 @@ export default function Contact() {
           <h1 className="font-bold text-4xl" style={{ fontFamily: "Inter" }}>У вас остались вопросы?</h1>
           <p className="mt-5 text-sm">Напишите нам и наш менеджер с радостью на них ответит.</p>
 
-          <form onSubmit={handleSubmit} className="space-y-4 mt-7 md:w-[450px]">
+          <form onSubmit={handleSubmit} className="space-y-4 pr-5 mt-7 md:w-[450px]">
             <input
               type="text"
               name="name"
@@ -79,14 +79,14 @@ export default function Contact() {
         </div>
 
         <div className="w-full md:ml-20">
-          <h1 className="font-bold text-4xl" style={{ fontFamily: "Inter" }}>Наш адрес</h1>
+          <h1 className="font-bold mt-5 text-4xl" style={{ fontFamily: "Inter" }}>Наш адрес</h1>
           <p className="mt-3 text-sm">г. Шымкент, проспект Конаева 20/1</p>
 
           <h1 className="font-bold text-4xl mt-10" style={{ fontFamily: "Inter" }}>Время работы</h1>
           <p className="mt-3 text-sm">9:00 - 20:00</p>
           
            
-        <div className="flex gap-10">
+        <div className="flex md:gap-10 gap-5">
         <div className="mt-10 flex">
             <Image
                 src="/call.png"
@@ -110,7 +110,7 @@ export default function Contact() {
                 className="object-contain"
                 priority
             />
-            <div className="block ml-3">
+            <div className="block ml-3 ">
                 <h1 className="text-black text-sm">EMAIL</h1>
                 <p className="text-[#C01F26]">info@Amanbay tech.kz</p>
             </div>
