@@ -4,7 +4,7 @@ export default function Founder() {
   const { name, title, description, photo } = data.founder;
 
   return (
-    <div className="md:flex block md:gap-45 px-20 mt-[100px]">
+    <div className="md:flex block md:gap-45 px-10 mt-[100px]">
       <div className="md:w-1/2 md:tracking-wide">
         <h1 className="font-bold text-xl md:text-3xl pb-5">{name}</h1>
         <p className="md:text-xl text-sm font-semibold pb-5">{title}</p>
