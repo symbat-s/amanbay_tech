@@ -9,8 +9,8 @@ const SimpleSwing: React.FC = () => {
     {
       id: 1,
       content: (
-        <div className="w-full h-full  rounded-2xl flex  justify-center text-black text-3xl font-medium ">
-          <img src="foto/book.png" className='w-50 h-50 mt-30 mr-40' alt="" />
+        <div className="w-full h-full  rounded-2xl flex gap-20 justify-center text-black text-3xl font-medium ">
+          <img src="foto/book.png" className='w-50 h-50 mt-30' alt="" />
           <div>
             <h1 className='mt-20'>Современные программы обучения</h1>
           <p className='text-[20px] mt-10'>Kурсы и методики, которые используют цифровые <br /> технологии,
@@ -25,8 +25,8 @@ const SimpleSwing: React.FC = () => {
     {
       id: 2,
       content: (
-        <div className="w-full h-full  rounded-2xl flex ml-10  justify-center text-black text-3xl font-medium ">
-          <img src="/foto/ballot.png" className='w-50 h-50 mt-30 mr-40 ' alt="" />
+        <div className="w-full h-full  rounded-2xl flex gap-20 mr-10 justify-center text-black text-3xl font-medium ">
+          <img src="/foto/ballot.png" className='w-50 h-50 mt-30' alt="" />
           <div>
                <h1 className='mt-20'>Проектный подход</h1>
           <p className='text-[20px] mt-10'>
@@ -39,17 +39,23 @@ const SimpleSwing: React.FC = () => {
     {
       id: 3,
       content: (
-        <div className="w-full h-full  rounded-2xl flex  justify-center text-black text-3xl font-medium">
-         <img src="/foto/classlesson.png" className='w-50 h-50 mt-30 mr-60' alt="" />
-         <h1 className='mt-10'>Менторская поддержка</h1>
+        <div className="w-full h-full  rounded-2xl flex  justify-center text-black text-3xl font-medium ">
+         <img src="/foto/classlesson.png" className='w-50 h-50 mt-30 mr-40 ml-30' alt="" />
+         <div>
+          <h1 className='mt-20'>Менторская поддержка</h1>
+         <p className='text-[20px] mt-10'>
+          помощь опытного специалиста, который направляет,<br /> даёт советы, делится практическими знаниями и помогает быстрее развиваться в профессии.
+         </p>
+         </div>
+      
         </div>
       ),
     },
      {
       id: 4,
       content: (
-        <div className="w-full h-full  rounded-2xl flex ml-10 justify-center text-black text-3xl font-medium ">
-         <img src="/foto/arrows.png" className='w-50 h-50 mt-30 mr-60' alt="tt" />
+        <div className="w-full h-full  rounded-2xl flex gap-20 justify-center text-black text-3xl font-medium ">
+         <img src="/foto/workspace.png" className='w-50 h-50 mt-30 mr-60' alt="tt" />
          <div>
              <h1 className='mt-10'>Онлайн и офлайн-формат </h1>
              <p className='text-[20px] mt-10' >
