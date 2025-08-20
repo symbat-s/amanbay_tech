@@ -7,9 +7,9 @@ export default function Company () {
     return (
         <div>
             <Header />
-            <WhoWeAre/>
+            {/* <WhoWeAre/>  */}
             <Employee/>
-            <Academy/>
+            {/* <Academy/> */}
         </div>
     )
 }
