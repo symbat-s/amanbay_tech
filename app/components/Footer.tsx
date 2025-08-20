@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <div className="bg-white">
       <div className="mt-10 bg-[#302D2D]">
-        <div className="mt-10 bg-[#302D2D] text-white text-sm p-20 flex flex-col md:flex-row justify-between gap-10">
+        <div className="mt-10 bg-[#302D2D] text-white text-sm p-5 md:p-20 flex flex-col md:flex-row justify-between gap-10">
           <p className="max-w-md">{description}</p>
 
           <ul className="space-y-2">
