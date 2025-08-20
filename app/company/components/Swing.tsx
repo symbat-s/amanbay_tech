@@ -39,8 +39,8 @@ const SimpleSwing: React.FC = () => {
     {
       id: 3,
       content: (
-        <div className="w-full h-full  rounded-2xl flex  justify-center text-black text-3xl font-medium ">
-         <img src="/foto/classlesson.png" className='w-50 h-50 mt-30 mr-40 ml-30' alt="" />
+        <div className="w-full h-full  rounded-2xl flex gap-20 justify-center text-black text-3xl font-medium ">
+         <img src="/foto/classlesson.png" className='w-50 h-50 mt-30  ml-30' alt="" />
          <div>
           <h1 className='mt-20'>Менторская поддержка</h1>
          <p className='text-[20px] mt-10'>
@@ -55,9 +55,9 @@ const SimpleSwing: React.FC = () => {
       id: 4,
       content: (
         <div className="w-full h-full  rounded-2xl flex gap-20 justify-center text-black text-3xl font-medium ">
-         <img src="/foto/workspace.png" className='w-50 h-50 mt-30 mr-60' alt="tt" />
-         <div>
-             <h1 className='mt-10'>Онлайн и офлайн-формат </h1>
+         <img src="/foto/workspace.png" className='w-50 h-50 mt-30 ml-30' alt="tt" />
+         <div className='mr-50'>
+             <h1 className='mt-20'>Онлайн и офлайн-формат </h1>
              <p className='text-[20px] mt-10' >
               Возможности работать удаленно <br /> и так же оффлайн
              </p>
