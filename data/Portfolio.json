@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Леонардо",
+    "description": "Мобильный онлайн-гипермаркет товаров для творчества: приложения для iOS и Android под ключ",
+    "image": "/image/portfolio/leonardo.jpg",
+    "bgColor": "bg-pink-100"
+  },
+  {
+    "title": "КудаБежать",
+    "description": "Мобильный навигатор по велосипедным и пешеходным маршрутам: приложение для Android и iOS и панель администратора",
+    "image": "/image/portfolio/leonardo.jpg",
+    "bgColor": "bg-pink-200"
+  },
+  {
+    "title": "Юрист для людей",
+    "description": "Мобильный помощник для клиентов юридической компании: кроссплатформенное приложение для iOS и Android",
+    "image": "/images/lawyer.png",
+    "bgColor": "bg-purple-100"
+  },
+  {
+    "title": "Газфонд",
+    "description": "Инструмент для отслеживания пенсионных накоплений и выплат: проектирование, дизайн, разработка приложений для iOS и Android",
+    "image": "/images/gazfond.png",
+    "bgColor": "bg-blue-100"
+  }
+]
+
