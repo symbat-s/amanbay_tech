@@ -139,7 +139,7 @@ const Problem: React.FC = () => {
       <button onClick={prevSlide}>
       <img
       src="/foto/chevron.png"
-      className="w-10 sm:w-14 lg:w-20"
+      className="w-10  sm:w-14 lg:w-20"
       alt="стрелка влево"
       />
       </button>

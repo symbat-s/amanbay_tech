@@ -7,7 +7,6 @@ export default function Company () {
     return (
         <div>
             <Header />
-            <Academy/>
             <Employee/>
             <Swing  />
         </div>
