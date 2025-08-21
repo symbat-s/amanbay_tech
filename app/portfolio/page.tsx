@@ -7,7 +7,7 @@ export default function Portfolio() {
         <div>
             <Header />
             <PortfolioBanner />
-            <ServicesSection />
+            <ServicesSection/>
             <Footer/>
         </div>
     )

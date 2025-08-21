@@ -10,7 +10,7 @@
     ],
     "buttonText": "Подробнее",
     "icon": ">" ,
-    "image": "../image/portfolio/DriveNow.png",
+    "image":  "/foto/driveNow.png",
     "link": "https://drivenow.kz/"
   },
   {
@@ -24,7 +24,7 @@
     ],
     "buttonText": "Подробнее",
     "icon": ">" ,
-    "image": "../image/portfolio/Juie.png",
+    "image": "/foto/juie.png",
     "link": "https://juie.app/"
   },
   {
@@ -38,8 +38,7 @@
     ],
     "buttonText": "Подробнее",
     "icon": ">" ,
-    "image": "../image/portfolio/Tanba.png",
-    "link": "https://juie.app/"
+    "image": "/foto/tanba.png"
   },
   {
     "id": "zherai",
@@ -52,7 +51,6 @@
     ],
     "buttonText": "Подробнее",
     "icon": ">" ,
-    "image": "../image/portfolio/ZherAi.png",
-    "link": "https://juie.app/"
+    "image": "/foto/zherAI.png"
   }
 ]
