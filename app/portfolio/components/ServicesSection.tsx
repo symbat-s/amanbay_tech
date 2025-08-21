@@ -36,7 +36,7 @@ const ServicesSection: React.FC = () => {
                 href={service.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-6 py-2 border flex w-45 border-gray-400 rounded-full hover:text-[white] hover:bg-[#908D8D] transition"
+                className="px-6 py-2 border flex w-45 border-gray-400 rounded-full hover:text-[white] hover:bg-[#908D8D] transition-transform duration-300 ease-out hover:scale-105 "
               >
                 {service.buttonText}
                 <div className="mt-[1px] ml-8">{service.icon}</div>
@@ -44,7 +44,7 @@ const ServicesSection: React.FC = () => {
             ) : (
               <button
                 onClick={() => alert("Возможно проект ещё не вышел!")}
-                className="px-6 py-2 border flex w-45 border-gray-400 rounded-full hover:text-[white] hover:bg-[#908D8D] transition"
+                className="px-6 py-2 border flex w-45 border-gray-400 rounded-full hover:text-[white] hover:bg-[#908D8D] transition-transform duration-300 ease-out hover:scale-105 hover:shadow-2xl"
               >
                 {service.buttonText}
                 <div className="mt-[1px] ml-8">{service.icon}</div>

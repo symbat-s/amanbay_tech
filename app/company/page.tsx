@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 
 export default function Company () {
     return (
-        <div>
+        <div className="bg-white">
             <Header />
             <WhoWeAre/>
             <Employee/>
