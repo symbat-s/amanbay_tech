@@ -5,7 +5,7 @@ import Academy from "./components/WhoWeAre";
 
 export default function Company () {
     return (
-        <div>
+        <div className="bg-white">
             <Header />
             <Academy/>
             <Employee/>
