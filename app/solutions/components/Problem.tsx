@@ -69,9 +69,8 @@ const slides = [
     setCurrent((prev) => (prev - 1 + slides.length) % slides.length);
   };
 
- return (
-        <div className="relative px-4 sm:px-10 lg:px-40 pt-10 sm:pt-16 lg:pt-20 pb-10">
-  
+return (
+    <div className="relative px-4 sm:px-10 lg:px-40 pt-10 sm:pt-16 lg:pt-20 pb-10">
       <div
         className={`w-full p-4 sm:p-6 lg:p-10 rounded-2xl shadow-2xl border-[#D9D9D9] border-[1px] transition-transform duration-300 ease-out hover:scale-105 ${slides[current].bgColor}`}
       >
