@@ -87,12 +87,12 @@ const Problem: React.FC = () => {
       <div
         className={`w-full p-4 sm:p-6 lg:p-10 rounded-2xl shadow-2xl border-[#D9D9D9] border-[1px] transition-transform duration-300 ease-out hover:scale-105 ${slides[current].bgColor}`}
       >
-        <p className="font-bold text-lg sm:text-xl lg:text-2xl mb-5 flex items-center gap-4">
+        <p className="font-bold text-lg sm:text-xl lg:text-2xl mb-5 flex items-center ">
           {slides[current].title}
           <img
             src={slides[current].logo}
             alt="logo"
-            className="max-h-10 sm:max-h-12 ml-50 lg:max-h-14 object-contain"
+            className="max-h-10 sm:max-h-12 ml-100 lg:max-h-14 object-contain"
           />
         </p>
         <p className="mb-4 text-sm sm:text-base leading-relaxed">
