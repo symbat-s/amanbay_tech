@@ -83,7 +83,7 @@ const Problem: React.FC = () => {
 
   return (
     <div className="relative px-4 sm:px-10 lg:px-40 pt-10 sm:pt-16 lg:pt-20 pb-10">
-  
+
       <div
         className={`w-full p-4 sm:p-6 lg:p-10 rounded-2xl shadow-2xl border-[#D9D9D9] border-[1px] transition-transform duration-300 ease-out hover:scale-105 ${slides[current].bgColor}`}
       >
@@ -117,6 +117,7 @@ const Problem: React.FC = () => {
             </>
           )}
         </p>
+
         <p className="text-sm sm:text-base leading-relaxed">
           <span className="font-bold">Решение: <br /></span>
           <span className="text-gray-800">{slides[current].solution}</span>
@@ -136,7 +137,8 @@ const Problem: React.FC = () => {
       </div>
 
       <div className="flex justify-center items-center gap-6 mt-6">
-      <button onClick={prevSlide}>
+          <button onClick={prevSlide}>
+
       <img
       src="/foto/chevron.png"
       className="w-10  sm:w-14 lg:w-20"
@@ -154,5 +156,4 @@ const Problem: React.FC = () => {
     </div>
   );
 };
-
 export default Problem;

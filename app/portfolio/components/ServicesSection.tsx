@@ -4,7 +4,7 @@ import servicesData from "@/data/servicesData.json";
 
 const ServicesSection: React.FC = () => {
   return (
-    <section className="max-w-7xl mx-auto px-4 py-16 space-y-20">
+    <section className="max-w-7xl mx-auto px-25 py-16 space-y-20">
       {servicesData.map((service, index) => (
         <div
           key={service.id}
