@@ -46,16 +46,16 @@ export default function DisappearingHeader() {
       <div className="container mx-auto px-4 sm:px-6 flex justify-between items-center">
         
         
-        <div className="flex items-center group mr-8">
+        <nav className="flex items-center group mr-8">
           <Link href={"/"}>
             <img 
               src="/Logo2.png" 
               alt="Amanbay Tech Logo" 
             />
           </Link>
-        </div>
+        </nav>
       
-        <div className="hidden md:flex text-black text-xl font-medium items-center space-x-16">
+        <nav className="hidden md:flex text-black text-xl font-medium items-center space-x-16">
           <Link href={"/portfolio"}>
             <button className="relative group px-2 py-1">
               Проект
@@ -80,7 +80,7 @@ export default function DisappearingHeader() {
               <span className="absolute bottom-0 left-0 w-full h-[2px] bg-[#505050] transform scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
             </button>
           </Link>
-        </div>
+        </nav>
 
       
         <button 
