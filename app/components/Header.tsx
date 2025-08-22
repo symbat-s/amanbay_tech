@@ -2,6 +2,9 @@
 
 import React, { useState, useEffect } from "react";
 import Link from 'next/link';
+import Pages from '@/data/Pages.json';
+
+const { Links } = Pages[0];
 
 export default function DisappearingHeader() {
   const [isVisible, setIsVisible] = useState(true);
@@ -56,25 +59,25 @@ export default function DisappearingHeader() {
         </nav>
       
         <nav className="hidden md:flex text-black text-xl font-medium items-center space-x-16">
-          <Link href={"/portfolio"}>
+          <Link href={Links.link1}>
             <button className="relative group px-2 py-1">
               Проект
               <span className="absolute bottom-0 left-0 w-full h-[2px] bg-[#505050] transform scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
             </button>
           </Link>
-          <Link href={"/service"}>
+          <Link href={Links.link2}>
             <button className="relative group px-2 py-1">
               Услуги
               <span className="absolute bottom-0 left-0 w-full h-[2px] bg-[#505050] transform scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
             </button>
           </Link>
-         <Link href={"/company"}>
+         <Link href={Links.link3}>
             <button className="relative group px-2 py-1">
               Компания
               <span className="absolute bottom-0 left-0 w-full h-[2px] bg-[#505050] transform scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
             </button>
           </Link>
-          <Link href={"/solutions"}>
+          <Link href={Links.link4}>
             <button className="relative group px-2 py-1">
               Решения
               <span className="absolute bottom-0 left-0 w-full h-[2px] bg-[#505050] transform scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
