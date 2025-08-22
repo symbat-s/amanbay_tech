@@ -70,20 +70,21 @@ const slides = [
   };
 
  return (
-    <div className="relative px-4 sm:px-10 lg:px-40 pt-10 sm:pt-16 lg:pt-20 pb-10">
-    <div
-      className={`w-full p-4 sm:p-6 lg:p-10 rounded-2xl shadow-2xl border-[#D9D9D9] border-[1px] transition-transform duration-300 ease-out hover:scale-105 ${slides[current].bgColor}`}
-    >
-      <p className="font-bold text-lg sm:text-xl lg:text-2xl mb-5 flex items-center gap-4">
-        {slides[current].title}
-        <img
-          src={slides[current].logo}
-          alt="logo"
-          className="max-h-10 sm:max-h-12 lg:max-h-14 object-contain"
-        />
-      </p>
-      <p className="mb-4 text-sm sm:text-base leading-relaxed">
-        <span className="font-bold">Проблема: <br /></span>
+        <div className="relative px-4 sm:px-10 lg:px-40 pt-10 sm:pt-16 lg:pt-20 pb-10">
+  
+      <div
+        className={`w-full p-4 sm:p-6 lg:p-10 rounded-2xl shadow-2xl border-[#D9D9D9] border-[1px] transition-transform duration-300 ease-out hover:scale-105 ${slides[current].bgColor}`}
+      >
+        <p className="font-bold text-lg sm:text-xl lg:text-2xl mb-5 flex items-center gap-4">
+          {slides[current].title}
+          <img
+            src={slides[current].logo}
+            alt="logo"
+            className="max-h-10 sm:max-h-12 lg:max-h-14 object-contain"
+          />
+        </p>
+        <p className="mb-4 text-sm sm:text-base leading-relaxed">
+          <span className="font-bold">Проблема: <br /></span>
           <span className="text-gray-800">{slides[current].problem}</span>
           {slides[current].problem2 && <><br /><span className="text-gray-800">{slides[current].problem2}</span></>}
           {slides[current].problem3 && <><br /><span className="text-gray-800">{slides[current].problem3}</span></>}
