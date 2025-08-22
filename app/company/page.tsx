@@ -1,15 +1,19 @@
 import Header from "../components/Header";
+import WhoWeAre from "./components/WhoWeAre";
 import Employee from "./components/Employees";
 import Swing from "./components/Swing";
-import Academy from "./components/WhoWeAre";
+import Academy from "./components/Academy";
+import Footer from "../components/Footer";
 
 export default function Company () {
     return (
         <div className="bg-white">
             <Header />
-            <Academy/>
+            <WhoWeAre/>
             <Employee/>
+            <Academy/>
             <Swing  />
+            <Footer/>
         </div>
     )
 }

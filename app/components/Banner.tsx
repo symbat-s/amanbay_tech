@@ -8,7 +8,7 @@ export default function PeakBanner() {
 
   return (
     <div className="md:flex block ">
-      <div className="md:ml-15 mt-20 p-10 md:mt-50 space-y-5">
+      <div className="md:ml-15 mt-20 p-5 md:mt-50 space-y-5">
         <h1 className="w-4/5 text-[#505050] font-medium  md:text-5xl">
           <div className="font-bold text-3xl md:text-6xl">{title.main}</div>
           <div className="font-light text-4xl">{title.highlight}</div>
