@@ -80,7 +80,6 @@ const Problem: React.FC = () => {
   const prevSlide = () => {
     setCurrent((prev) => (prev - 1 + slides.length) % slides.length);
   };
-
   return (
     <div className="relative px-4 sm:px-10 lg:px-40 pt-10 sm:pt-16 lg:pt-20 pb-10">
       <div
@@ -94,7 +93,6 @@ const Problem: React.FC = () => {
             className="max-h-10 sm:max-h-12 lg:max-h-14 object-contain"
           />
         </p>
-
         <p className="mb-4 text-sm sm:text-base leading-relaxed">
           <span className="font-bold">Проблема: <br /></span>
           <span className="text-gray-800">{slides[current].problem}</span>
@@ -135,25 +133,23 @@ const Problem: React.FC = () => {
           )}
         </p>
       </div>
-
       <div className="flex justify-center items-center gap-6 mt-6">
-        <button onClick={prevSlide}>
-          <img
-            src="/foto/chevron.png"
-            className="w-10 sm:w-14 lg:w-20"
-            alt="стрелка влево"
-          />
-        </button>
-        <button onClick={nextSlide}>
-          <img
-            src="/foto/chevron.png"
-            className="w-10 sm:w-14 lg:w-20 rotate-180"
-            alt="стрелка вправо"
-          />
-        </button>
+          <button onClick={prevSlide}>
+      <img
+      src="/foto/chevron.png"
+      className="w-10  sm:w-14 lg:w-20"
+      alt="стрелка влево"
+      />
+      </button>
+      <button onClick={nextSlide}>
+      <img
+      src="/foto/chevron.png"
+      className="w-10 sm:w-14 lg:w-20 rotate-180"
+      alt="стрелка вправо"
+      />
+     </button>
       </div>
     </div>
   );
 };
-
 export default Problem;
