@@ -47,39 +47,39 @@ export default function DisappearingHeader() {
         
         
         <div className="flex items-center group mr-8">
-          <Link href="/">
+          <a href="/">
             <img 
               src="/Logo2.png" 
               alt="Amanbay Tech Logo" 
             />
-          </Link>
+          </a>
         </div>
       
         <div className="hidden md:flex text-black text-xl font-medium items-center space-x-16">
-          <Link href="/portfolio">
+          <a href="/portfolio">
             <button className="relative group px-2 py-1">
               Проект
               <span className="absolute bottom-0 left-0 w-full h-[2px] bg-[#505050] transform scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
             </button>
-          </Link>
-          <Link href="/service">
+          </a>
+          <a href="/service">
             <button className="relative group px-2 py-1">
               Услуги
               <span className="absolute bottom-0 left-0 w-full h-[2px] bg-[#505050] transform scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
             </button>
-          </Link>
-          <Link href="/company">
+          </a>
+         <a href="/company">
             <button className="relative group px-2 py-1">
               Компания
               <span className="absolute bottom-0 left-0 w-full h-[2px] bg-[#505050] transform scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
             </button>
-          </Link>
-          <Link href="/solutions">
+          </a>
+          <a href="/solutions">
             <button className="relative group px-2 py-1">
               Решения
               <span className="absolute bottom-0 left-0 w-full h-[2px] bg-[#505050] transform scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
             </button>
-          </Link>
+          </a>
         </div>
 
       
