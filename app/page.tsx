@@ -11,7 +11,7 @@ import Portfolio from "@/app/components/Portfolio";
 
 export default function Home() {
   return (
-    <div>
+    <div className="bg-[white]">
       <Header />
       <Banner />
       <BannerTwo />

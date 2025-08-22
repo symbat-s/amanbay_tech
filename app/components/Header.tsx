@@ -2,6 +2,9 @@
 
 import React, { useState, useEffect } from "react";
 import Link from 'next/link';
+import Pages from '@/data/Pages.json';
+
+const { Links } = Pages[0];
 
 export default function DisappearingHeader() {
   const [isVisible, setIsVisible] = useState(true);
@@ -46,41 +49,46 @@ export default function DisappearingHeader() {
       <div className="container mx-auto px-4 sm:px-6 flex justify-between items-center">
         
         
-        <div className="flex items-center group mr-8">
-          <Link href="/">
+        <nav className="flex items-center group mr-8">
+          <Link href={"/"}>
             <img 
               src="/Logo2.png" 
               alt="Amanbay Tech Logo" 
             />
           </Link>
-        </div>
+        </nav>
       
+<<<<<<< HEAD
         <div className="hidden md:flex text-black text-xl font-medium items-center space-x-16">
           <Link href="/portfolio">
+=======
+        <nav className="hidden md:flex text-black text-xl font-medium items-center space-x-16">
+          <Link href={Links.link1}>
+>>>>>>> 48a90055d98ea7529c3d61274043935e4b9f506a
             <button className="relative group px-2 py-1">
               Проект
               <span className="absolute bottom-0 left-0 w-full h-[2px] bg-[#505050] transform scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
             </button>
           </Link>
-          <Link href="/service">
+          <Link href={Links.link2}>
             <button className="relative group px-2 py-1">
               Услуги
               <span className="absolute bottom-0 left-0 w-full h-[2px] bg-[#505050] transform scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
             </button>
           </Link>
-          <Link href="/company">
+         <Link href={Links.link3}>
             <button className="relative group px-2 py-1">
               Компания
               <span className="absolute bottom-0 left-0 w-full h-[2px] bg-[#505050] transform scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
             </button>
           </Link>
-          <Link href="/solutions">
+          <Link href={Links.link4}>
             <button className="relative group px-2 py-1">
               Решения
               <span className="absolute bottom-0 left-0 w-full h-[2px] bg-[#505050] transform scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
             </button>
           </Link>
-        </div>
+        </nav>
 
       
         <button 
@@ -96,7 +104,7 @@ export default function DisappearingHeader() {
         {isMobileMenuOpen && (
           <div className="md:hidden absolute top-full left-0 w-full bg-white shadow-lg py-4 px-6 z-50">
             <div className="flex flex-col space-y-4">
-              <Link href="/projects" className="text-black text-lg py-2">
+              <Link href="/portfolio" className="text-black text-lg py-2">
                 Проект
               </Link>
               <Link href="/services" className="text-black text-lg py-2">

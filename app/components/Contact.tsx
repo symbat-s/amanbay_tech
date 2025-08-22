@@ -27,8 +27,8 @@ export default function Contact() {
     console.log("Form submitted:", formData);
   };
   return (
-    <div>
-       <h1 className="font-bold md:text-5xl text-xl text-center my-10" style={{ fontFamily: "Inter" }}>
+    <div className="text-black">
+       <h1 className="font-bold md:text-5xl text-xl text-black text-center my-10" style={{ fontFamily: "Inter" }}>
           Контакты
         </h1>
 

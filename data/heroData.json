@@ -1,17 +1,33 @@
 {
+<<<<<<< HEAD
   "title": "Программные разработки нового \n поколения",
   "description": "Разрабатываем надёжные и масштабируемые IT-продукты, которые делают ваш бизнес сильнее. ",
   "primaryButton": {
     "text": "Get Started",
     "link": "#"
+=======
+  "title": "Программные разработки нового поколения",
+  "description": "Разрабатываем надёжные и масштабируемые IT-продукты, которые делают ваш бизнес сильнее. ",
+  "primaryButton": {
+    "text": "Get Started",
+    "link": "#",
+    "icon": ">"
+>>>>>>> 48a90055d98ea7529c3d61274043935e4b9f506a
   },
   "secondaryButton": {
     "text": "How it Work",
     "link": "#"
   },
   "images": [
+<<<<<<< HEAD
     "/image/portfolio/office.jpg",
     "/image/portfolio/coding.jpg",
     "/image/portfolio/bg_portfolio.png"
+=======
+    "/foto/drivelogo.png",
+    "/foto/juielogo.png",
+    "/foto/zherAIlogo.png",
+    "/foto/tanbalogo.png"
+>>>>>>> 48a90055d98ea7529c3d61274043935e4b9f506a
   ]
 }
