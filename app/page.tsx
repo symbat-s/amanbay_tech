@@ -10,7 +10,7 @@ import InfoUs from "./components/InfoUs";
 
 export default function Home() {
   return (
-    <div className="bg-[white]">
+    <div>
       <Header />
       <Banner />
       <BannerTwo />
