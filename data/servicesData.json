@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 [
-=======
-  [
->>>>>>> 48a90055d98ea7529c3d61274043935e4b9f506a
   {
     "id": "drivenow",
     "title": "DriveNow",
@@ -13,12 +9,7 @@
       "Прозрачные цены"
     ],
     "buttonText": "Подробнее",
-<<<<<<< HEAD
     "image": "../image/portfolio/DriveNow.png",
-=======
-    "icon": ">" ,
-    "image":  "/foto/driveNow.png",
->>>>>>> 48a90055d98ea7529c3d61274043935e4b9f506a
     "link": "https://drivenow.kz/"
   },
   {
@@ -31,12 +22,7 @@
       "быстро печатать чеки и документы"
     ],
     "buttonText": "Подробнее",
-<<<<<<< HEAD
     "image": "../image/portfolio/Juie.png",
-=======
-    "icon": ">" ,
-    "image": "/foto/juie.png",
->>>>>>> 48a90055d98ea7529c3d61274043935e4b9f506a
     "link": "https://juie.app/"
   },
   {
@@ -49,13 +35,8 @@
       "быстро печатать чеки и документы"
     ],
     "buttonText": "Подробнее",
-<<<<<<< HEAD
     "image": "../image/portfolio/Juie.png",
     "link": "https://juie.app/"
-=======
-    "icon": ">" ,
-    "image": "/foto/tanba.png"
->>>>>>> 48a90055d98ea7529c3d61274043935e4b9f506a
   },
   {
     "id": "zherai",
@@ -67,12 +48,7 @@
       "быстро печатать чеки и документы"
     ],
     "buttonText": "Подробнее",
-<<<<<<< HEAD
     "image": "../image/portfolio/Juie.png",
     "link": "https://juie.app/"
-=======
-    "icon": ">" ,
-    "image": "/foto/zherAI.png"
->>>>>>> 48a90055d98ea7529c3d61274043935e4b9f506a
   }
 ]

@@ -58,13 +58,8 @@ export default function DisappearingHeader() {
           </Link>
         </nav>
       
-<<<<<<< HEAD
-        <div className="hidden md:flex text-black text-xl font-medium items-center space-x-16">
-          <Link href="/portfolio">
-=======
         <nav className="hidden md:flex text-black text-xl font-medium items-center space-x-16">
           <Link href={Links.link1}>
->>>>>>> 48a90055d98ea7529c3d61274043935e4b9f506a
             <button className="relative group px-2 py-1">
               Проект
               <span className="absolute bottom-0 left-0 w-full h-[2px] bg-[#505050] transform scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
