@@ -5,6 +5,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Founder from "./components/Founder";
 import InfoUs from "./components/InfoUs";
+import Portfolio from "@/app/components/Portfolio";
 
 
 
@@ -14,6 +15,7 @@ export default function Home() {
       <Header />
       <Banner />
       <BannerTwo />
+        <Portfolio />
       <InfoUs/>
       <Founder/>
       <Contact />
