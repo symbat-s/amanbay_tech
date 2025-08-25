@@ -92,7 +92,7 @@ const Problem: React.FC = () => {
           <img
             src={slides[current].logo}
             alt="logo"
-            className="max-h-10 sm:max-h-12 ml-100 lg:max-h-14 object-contain"
+            className="max-h-10 sm:max-h-12 ml-50 lg:max-h-14 object-contain"
           />
         </p>
         <p className="mb-4 text-sm sm:text-base leading-relaxed">
