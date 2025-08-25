@@ -12,7 +12,7 @@ export default function InfoUs() {
       </div>
 
               <div className="mt-10 flex flex-wrap justify-center gap-6 px-4">
-                 <img src="/foto/info1.png" alt="info1"  className="w-75 h-35"/>
+                 <img src="/foto/info1.png" alt="info1"  className="w-65  h-40"/>
                   <img src="/foto/info2.png" alt="info2"  className="w-60 h-50"/>
                    <img src="/foto/info3.png" alt="info3"  className="w-60 h-50"/>
                     <img src="/foto/info4.png" alt="info4"  className="w-60 h-50"/>
