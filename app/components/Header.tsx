@@ -96,24 +96,7 @@ export default function DisappearingHeader() {
         </button>
 
       
-        {isMobileMenuOpen && (
-          <div className="md:hidden absolute top-full left-0 w-full bg-white shadow-lg py-4 px-6 z-50">
-            <div className="flex flex-col space-y-4">
-              <Link href="/portfolio" className="text-black text-lg py-2">
-                Проект
-              </Link>
-              <Link href="/services" className="text-black text-lg py-2">
-                Услуги
-              </Link>
-              <Link href="/about" className="text-black text-lg py-2">
-                Компания
-              </Link>
-              <Link href="/solutions" className="text-black text-lg py-2">
-                Решения
-              </Link>
-            </div>
-          </div>
-        )}
+      
       </div>
     </header>
   );
