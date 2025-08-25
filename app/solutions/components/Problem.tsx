@@ -3,18 +3,7 @@ import React, { useState } from "react";
 import Solution from "@/data/Solution.json";
 
 const Problem: React.FC = () => {
-  const {
-    VMI,
-    TechnoLine,
-    Amazon,
-    OMS,
-    Orken,
-    AmazonLogo,
-    VMILogo,
-    OMSLogo,
-    OrkenLogo,
-    TechnoLineLogo,
-  } = Solution[0];
+  const { VMI , TechnoLine , Amazon , OMS , Orken , AmazonLogo , VMILogo , OMSLogo , OrkenLogo , TechnoLineLogo ,} = Solution[0];
 
   const slides = [
     {
