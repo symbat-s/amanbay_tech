@@ -14,8 +14,7 @@ export default function Portfolio() {
             <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-6 mb-10">
                 <h2 className="text-3xl font-bold">Портфолио</h2>
                 <p className="max-w-lg text-gray-600">
-                    Мы стремимся к длительным отношениям с погружением в мир бизнеса клиента.
-                    Это наш способ находить точные, красивые и своевременные решения.
+                    Разрабатываем надёжные и масштабируемые IT-продукты, которые делают ваш бизнес сильнее.
                 </p>
             </div>
 
@@ -34,7 +33,7 @@ export default function Portfolio() {
                     //     <ArrowRight className="text-gray-800 shrink-0" />
                     <div key={index} className={`p-6 rounded-lg  sm:flex-row  sm:items-start gap-4 `}>
                         {/* Верхняя часть с изображением */}
-                        <div className="relative bg-[#f8d9d6] flex justify-center items-center p-6">
+                        <div className="relative bg-gray-100 flex justify-center items-center p-6">
                             <img
                                 src={item.image}
                                 alt={item.title}
