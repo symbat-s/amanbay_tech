@@ -42,7 +42,7 @@ export default function DisappearingHeader() {
 
   return (
     <header
-      className={`fixed top-0 left-0 w-full backdrop-blur-sm z-50 py-3 transition-transform duration-500 ${
+      className={`fixed top-0 left-0 w-full bg-white/35 backdrop-blur-none  z-50 py-3 transition-transform duration-800 ${
         isVisible ? "translate-y-0" : "-translate-y-full"
       }`}
     >
@@ -61,7 +61,13 @@ export default function DisappearingHeader() {
         <nav className="hidden md:flex text-black text-xl font-medium items-center space-x-16">
           <Link href={Links.link1}>
             <button className="relative group px-2 py-1">
-              Проект
+              Start Up
+              <span className="absolute bottom-0 left-0 w-full h-[2px] bg-[#505050] transform scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
+            </button>
+          </Link>
+          <Link href="">
+            <button className="relative group px-2 py-1">
+              Outsourcing
               <span className="absolute bottom-0 left-0 w-full h-[2px] bg-[#505050] transform scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
             </button>
           </Link>
@@ -100,7 +106,10 @@ export default function DisappearingHeader() {
           <div className="md:hidden absolute top-full left-0 w-full bg-white shadow-lg py-4 px-6 z-50">
             <div className="flex flex-col space-y-4">
               <Link href="/portfolio" className="text-black text-lg py-2">
-                Проект
+                StartUP
+              </Link>
+              <Link href="" className="text-black text-lg py-2">
+                Outsourcing
               </Link>
               <Link href="/service" className="text-black text-lg py-2">
                 Услуги
