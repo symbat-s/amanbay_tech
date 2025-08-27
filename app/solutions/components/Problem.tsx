@@ -69,7 +69,7 @@ const Problem: React.FC = () => {
 
   return (
     <div className="relative px-3 sm:px-8 lg:px-20 xl:px-40 pt-6 sm:pt-12 lg:pt-20 pb-10">
-      {/* Контейнер с динамической высотой */}
+  
       <div
         className="relative w-full mx-auto flex items-center justify-center transition-all duration-500"
         style={{ height: containerHeight ? `${containerHeight}px` : "auto" }}
@@ -86,7 +86,7 @@ const Problem: React.FC = () => {
                 : "translate-x-full opacity-0 scale-90 z-0"
               }`}
           >
-            {/* Заголовок + лого */}
+        
             <div className="flex justify-between items-start mb-4">
               <h2 className="font-bold text-base sm:text-xl lg:text-2xl text-gray-800">
                 {slide.title}
@@ -98,7 +98,7 @@ const Problem: React.FC = () => {
               />
             </div>
 
-            {/* Проблема */}
+          
             <div className="mb-4 text-sm sm:text-base leading-relaxed">
               <span className="font-bold text-gray-700">Проблема: <br /></span>
               <span className="text-gray-600">{slide.problem}</span>
@@ -107,7 +107,7 @@ const Problem: React.FC = () => {
               {slide.problem4 && <><br /><span className="text-gray-600">{slide.problem4}</span></>}
             </div>
 
-            {/* Решение */}
+
             <div className="text-sm sm:text-base leading-relaxed">
               <span className="font-bold text-gray-700">Решение: <br /></span>
               <span className="text-gray-600">{slide.solution}</span>
@@ -118,7 +118,7 @@ const Problem: React.FC = () => {
         ))}
       </div>
 
-      {/* Индикаторы */}
+   
       <div className="flex justify-center space-x-2 mt-6">
         {slides.map((_, index) => (
           <button
