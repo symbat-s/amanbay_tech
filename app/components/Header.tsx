@@ -65,7 +65,7 @@ export default function DisappearingHeader() {
               <span className="absolute bottom-0 left-0 w-full h-[2px] bg-[#505050] transform scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
             </button>
           </Link>
-          <Link href="">
+          <Link href={Links.link5}>
             <button className="relative group px-2 py-1">
               Outsourcing
               <span className="absolute bottom-0 left-0 w-full h-[2px] bg-[#505050] transform scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
@@ -108,7 +108,7 @@ export default function DisappearingHeader() {
               <Link href="/portfolio" className="text-black text-lg py-2">
                 StartUP
               </Link>
-              <Link href="" className="text-black text-lg py-2">
+              <Link href="/outsourcing" className="text-black text-lg py-2">
                 Outsourcing
               </Link>
               <Link href="/service" className="text-black text-lg py-2">
