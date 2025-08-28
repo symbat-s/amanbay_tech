@@ -1,53 +1,37 @@
+import ServiceInfoOut from '@/data/ServiceInfoOut.json';
+
 export default function ServiceOut() {
+  const {title , description , foto} = ServiceInfoOut[0]
   return (
-    <div className="relative w-full min-h-screen mt-10 overflow-hidden">
-   
-      <div className="absolute md:bg-[url(/foto/ServiceOut.jpg)] sm:bg-none bg-cover ml-50 w-140 h-150 z-0"></div>
-
-
-      <h1 className="absolute hidden md:block text-6xl z-10 font-semibold ml-200 mt-2">
-        Почему именно мы?
-      </h1>
-    
-      <h1 className="block md:hidden text-3xl sm:text-4xl z-10 font-semibold text-center text-white mb-8">
-        Почему именно мы?
-      </h1>
-
-    
-      <div className="hidden md:block">
-        <div className="flex gap-10 w-150 h-25 absolute ml-165 mt-25 bg-[#adadad] text-center text-3xl p-5 z-10">
-          <h1 className="text-6xl">01</h1>
-          <h1 className="mt-2">Быстрая, качественная работа</h1>
+    <div className="w-full mt-20 h-200">
+        <div className="w-full h-50 text-center  bg-[#404040] pt-10 text-semibold">
+          <h1 className="text-6xl text-white ">Преимущества работы с <br /> Amanbay Tech</h1>
         </div>
 
-        <div className="flex gap-10 w-150 h-25 absolute ml-165 mt-62 bg-[#adadad] text-center text-4xl p-5 z-10">
-          <h1 className="text-6xl">02</h1>
-          <h1 className="mt-2">Большая команда</h1>
-        </div>
+        <div className="flex ml-30 mt-10">
+          <img src={foto.src} alt={foto.alt} className="w-160 h-150" />
+            <div className="text-[#404040]">
+              <div className="mt-5">
+                <h1 className="text-2xl font-semibold ">{title.Title1}</h1>
+                <p className="font-light">{description.description1}</p>
+              </div>
 
-        <div className="flex gap-10 w-150 h-25 absolute ml-165 mt-100 bg-[#adadad] text-center text-4xl p-5 z-10">
-          <h1 className="text-6xl">03</h1>
-          <h1 className="mt-2">Опытные сотрудники</h1>
-        </div>
-      </div>
+              <div className="mt-24">
+                <h1 className="text-2xl font-semibold ">{title.Title2}</h1>
+                <p className="font-light">{description.description2}</p>
+              </div>
 
-     
-      <div className="flex flex-col items-center gap-6 px-4 md:hidden relative z-10">
-        <div className="flex items-center gap-4 bg-[#adadad]/90 p-4 rounded-xl w-full text-lg">
-          <h1 className="text-3xl font-bold">01</h1>
-          <p>Быстрая, качественная работа</p>
-        </div>
+              <div className="mt-18">
+                <h1 className="text-2xl font-semibold ">{title.Title3}</h1>
+                <p className="font-light">{description.description3}</p>
+              </div>
 
-        <div className="flex items-center gap-4 bg-[#adadad]/90 p-4 rounded-xl w-full text-lg">
-          <h1 className="text-3xl font-bold">02</h1>
-          <p>Большая команда</p>
+              <div className="mt-17">
+                <h1 className="text-2xl font-semibold ">{title.Title4}</h1>
+                <p className="font-light">{description.description4}</p>
+              </div>
+            </div>
         </div>
-
-        <div className="flex items-center gap-4 bg-[#adadad]/90 p-4 rounded-xl w-full text-lg">
-          <h1 className="text-3xl font-bold">03</h1>
-          <p>Опытные сотрудники</p>
-        </div>
-      </div>
     </div>
   );
 }
