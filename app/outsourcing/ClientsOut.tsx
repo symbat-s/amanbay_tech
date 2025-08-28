@@ -9,9 +9,9 @@ import "swiper/css/pagination";
 export default function ClientOut () {
     const { title , cards} = ClientInfoOut[0]
     return(
-        <div className="w-full h-150 mt-30">
+        <div className="w-full h-150 ">
              <h1 className="text-center text-6xl">{title}</h1>
-        <div className="pb-2 sm:pb-3 md:pb-4">
+        <div className="pb-2 sm:pl-10 sm:pb-3 md:pb-4">
       <Swiper
         modules={[Pagination, Autoplay]}
         spaceBetween={24}

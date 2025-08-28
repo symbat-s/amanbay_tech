@@ -8,14 +8,16 @@ export default function BannerOut() {
 
       <div>
         <video
-          autoPlay
-          muted
-          loop
-          playsInline
-          className="absolute top-1/2 left-1/2 min-w-full min-h-full object-cover -translate-x-1/2 -translate-y-1/2 brightness-100 z-0"
-        >
-          <source src="foto/OfficeOut.mp4" type="video/mp4" />
-        </video>
+  autoPlay
+  muted
+  loop
+  playsInline
+  preload="auto"
+  className="absolute top-1/2 left-1/2 min-w-full min-h-full object-cover -translate-x-1/2 -translate-y-1/2 brightness-100 z-0"
+>
+  <source src="/foto/OfficeOut.webm" type="video/webm" />
+  <source src="/foto/OfficeOut.mp4" type="video/mp4" />
+</video>
       </div>
 
      
