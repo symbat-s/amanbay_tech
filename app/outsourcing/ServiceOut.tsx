@@ -16,7 +16,7 @@ export default function ServiceOut() {
                 <p className="font-light text-[6px] sm:text-[12px] md:text-xl">{description.description1}</p>
               </div>
 
-              <div className="sd:mt-24 md:mt-24  sd:pr-0 md:pr-0 mt-6">
+              <div className="sd:mt-25 md:mt-24  sd:pr-0 md:pr-0 mt-6">
                 <h1 className="md:text-2xl sm:text-xl font-semibold  text-[10px]">{title.Title2}</h1>
                 <p className="font-light   text-[6px] sm:text-[12px] md:text-xl">{description.description2}</p>
               </div>
