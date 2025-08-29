@@ -6,18 +6,26 @@ export default function BannerOut() {
   return (
     <div className="relative w-full h-screen overflow-hidden">
 
-      <div>
-       <video
-  autoPlay
-  muted
-  loop
-  playsInline
-  className="absolute top-0 left-0 w-full h-full object-cover"
->
-  <source src="/foto/OfficeOut.webm" type="video/webm" />
-  <source src="/foto/OfficeOut.mp4" type="video/mp4" />
-</video>
-      </div>
+     <div >
+  
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        poster="/foto/OfficeOut.jpg"
+        className="hidden md:block absolute top-0 left-0 w-full h-full object-cover"
+      >
+        <source src="/video/OfficeOut.webm" type="video/webm" />
+        <source src="/video/OfficeOut.mp4" type="video/mp4" />
+      </video>
+
+      <img
+        src="/foto/OfficeOut.jpg"
+        alt="background"
+        className="block md:hidden absolute top-0 left-0 w-full h-full object-cover"
+      />
+    </div>
 
      
       <div className="absolute inset-0 bg-black/40 flex flex-col items-center justify-center text-center px-4 z-10">
