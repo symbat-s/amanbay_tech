@@ -5,25 +5,11 @@ export default function BannerOut() {
   const { title } = BannerOutTitle[0];
   return (
     <div className="relative w-full h-screen overflow-hidden">
-
      <div >
-  
-      <video
-        autoPlay
-        muted
-        loop
-        playsInline
-        poster="/foto/OfficeOut.jpg"
-        className="hidden md:block absolute top-0 left-0 w-full h-full object-cover"
-      >
-        <source src="/video/OfficeOut.webm" type="video/webm" />
-        <source src="/video/OfficeOut.mp4" type="video/mp4" />
-      </video>
-
       <img
         src="/foto/OfficeOut.jpg"
         alt="background"
-        className="block md:hidden absolute top-0 left-0 w-full h-full object-cover"
+        className="block absolute top-0 left-0 w-full h-full object-cover"
       />
     </div>
 
