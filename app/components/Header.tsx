@@ -108,7 +108,7 @@ export default function DisappearingHeader() {
               <Link href="/portfolio" className="text-black text-lg py-2">
                 StartUP
               </Link>
-              <Link href="/outsourcing" className="text-black text-lg py-2">
+              <Link href="" className="text-black text-lg py-2">
                 Outsourcing
               </Link>
               <Link href="/service" className="text-black text-lg py-2">
