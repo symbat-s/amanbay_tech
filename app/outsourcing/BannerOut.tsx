@@ -4,13 +4,17 @@ import BannerOutTitle from '@/data/BannerOutTitle.json';
 export default function BannerOut() {
   const { title } = BannerOutTitle[0];
   return (
-    <div className="relative w-full h-screen overflow-hidden">
+    <div className="relative w-full h-screen ">
      <div >
-      <img
-        src="/foto/OfficeOut.jpg"
-        alt="background"
-        className="block absolute top-0 left-0 w-full h-full object-cover"
-      />
+          <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        className="absolute top-1/2 left-1/2 min-w-full min-h-full object-cover -translate-x-1/2 -translate-y-1/2 brightness-100 z-0"
+      >
+        <source src="/video/OfficeOut.mp4" type="video/mp4" />
+      </video>
     </div>
 
      
