@@ -11,24 +11,24 @@ export default function ServiceOut() {
         <div className="flex sm:p-15 md:p-25 mt-20 sm:mt-10">
           <img src={foto.src} alt={foto.alt} className="w-50 h-50  sm:w-100 sm:h-100 md:w-160 md:h-150 " />
             <div className="text-[#404040]">
-              <div className="sd:mt-5 md:mt-5  sd:pr-0 md:pr-0">
-                <h1 className="md:text-2xl mt-2 sm:text-xl text-[10px] font-semibold ">{title.Title1}</h1>
-                <p className="  font-light text-[8px] sm:text-[12px] md:text-xl">{description.description1}</p>
+              <div className="sd:mt-5 md:mt-5 sd:pr-0 md:pr-0">
+                <h1 className="md:text-2xl  sm:text-xl text-[10px] font-semibold ">{title.Title1}</h1>
+                <p className="  font-light text-[6px] sm:text-[12px] md:text-xl">{description.description1}</p>
               </div>
 
-              <div className="mt-5 sd:mt-24 md:mt-24 pr-10 sd:pr-0 md:pr-0">
+              <div className="sd:mt-24 md:mt-24 pr-10 sd:pr-0 md:pr-0 mt-8">
                 <h1 className="md:text-2xl sm:text-xl font-semibold  text-[10px]">{title.Title2}</h1>
-                <p className="font-light   text-[8px] sm:text-[12px] md:text-xl">{description.description2}</p>
+                <p className="font-light   text-[6px] sm:text-[12px] md:text-xl">{description.description2}</p>
               </div>
 
-              <div className="mt-4 sd:mt-15 md:mt-15 pr-10 sd:pr-0 md:pr-0">
+              <div className="mt-1 sd:mt-15 md:mt-15 pr-10 sd:pr-0 md:pr-0">
                 <h1 className="md:text-2xl sm:text-xl font-semibold  text-[10px]">{title.Title3}</h1>
-                <p className="font-light  text-[8px] sm:text-[12px] md:text-xl">{description.description3}</p>
+                <p className="font-light  text-[6px] sm:text-[12px] md:text-xl">{description.description3}</p>
               </div>
 
-              <div className="mt-4 sd:mt-18 md:mt-18 pr-10 sd:pr-0 md:pr-0">
+              <div className="mt-[2px] sd:mt-18 md:mt-18 pr-10 sd:pr-0 md:pr-0">
                 <h1 className="md:text-2xl sm:text-xl font-semibold text-[10px]">{title.Title4}</h1>
-                <p className="font-light  text-[8px] sm:text-[12px] md:text-xl">{description.description4}</p>
+                <p className="font-light  text-[6px] sm:text-[12px] md:text-xl">{description.description4}</p>
               </div>
             </div>
         </div>
