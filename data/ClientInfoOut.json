@@ -1,0 +1,19 @@
+[
+    {
+        "title":"Наши клиенты",
+        "cards":{
+            "card1":{
+                "src":"foto/AlmatauLogo.png"
+            },
+            "card2":{
+                "src":"foto/AsiaMedLogo.png"
+            },
+            "card3":{
+                "src":"foto/PionerLogo.png"
+            },
+            "card4":{
+                "src":"foto/KazPromLogo.png"
+            }
+        }
+    }
+]
