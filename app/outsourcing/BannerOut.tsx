@@ -4,27 +4,17 @@ import BannerOutTitle from '@/data/BannerOutTitle.json';
 export default function BannerOut() {
   const { title } = BannerOutTitle[0];
   return (
-    <div className="relative w-full h-screen overflow-hidden">
-
+    <div className="relative w-full h-screen ">
      <div >
-  
-      <video
+          <video
         autoPlay
         muted
         loop
         playsInline
-        poster="/foto/OfficeOut.jpg"
-        className="hidden md:block absolute top-0 left-0 w-full h-full object-cover"
+        className="absolute top-1/2 left-1/2 min-w-full min-h-full object-cover -translate-x-1/2 -translate-y-1/2 brightness-100 z-0"
       >
-        <source src="/video/OfficeOut.webm" type="video/webm" />
         <source src="/video/OfficeOut.mp4" type="video/mp4" />
       </video>
-
-      <img
-        src="/foto/OfficeOut.jpg"
-        alt="background"
-        className="block md:hidden absolute top-0 left-0 w-full h-full object-cover"
-      />
     </div>
 
      
