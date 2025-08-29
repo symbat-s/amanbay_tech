@@ -61,11 +61,16 @@ export default function DisappearingHeader() {
         <nav className="hidden md:flex text-black text-xl font-medium items-center space-x-16">
           <Link href={Links.link1}>
             <button className="relative group px-2 py-1">
-              Проект
+              Start Up
               <span className="absolute bottom-0 left-0 w-full h-[2px] bg-[#505050] transform scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
             </button>
           </Link>
-          
+          <Link href={Links.link5}>
+            <button className="relative group px-2 py-1">
+              Outsourcing
+              <span className="absolute bottom-0 left-0 w-full h-[2px] bg-[#505050] transform scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
+            </button>
+          </Link>
           <Link href={Links.link2}>
             <button className="relative group px-2 py-1">
               Услуги
