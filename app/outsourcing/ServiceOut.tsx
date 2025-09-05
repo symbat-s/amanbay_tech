@@ -9,7 +9,7 @@ export default function ServiceOut() {
         </div>
 
         <div className="flex pr-5 sm:p-15 md:p-25 mt-20 sm:mt-10">
-          <img src={foto.src} alt={foto.alt} className="w-50 h-50  sm:w-100 sm:h-100 md:w-160 md:h-150 " />
+          <img src={foto.src} alt={foto.alt} className="w-50 h-50 md:ml-20 sm:ml-20  sm:w-100 sm:h-100 md:w-160 md:h-150 " />
             <div className="text-[#404040]">
               <div className="sd:mt-5 md:mt-5 mt-2 sd:pr-0 md:pr-0">
                 <h1 className="md:text-2xl  sm:text-xl text-[10px] font-semibold ">{title.Title1}</h1>

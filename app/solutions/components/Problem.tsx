@@ -68,7 +68,7 @@ const Problem: React.FC = () => {
   }, [current, isTransitioning, slides.length]);
 
   return (
-    <div className="relative px-3 sm:px-8 lg:px-20 xl:px-40 pt-6 sm:pt-12 lg:pt-20 pb-10">
+    <div className="relative w-full px-10 sm:px-8 lg:px-20 xl:px-40 pt-6 sm:pt-12 lg:pt-20 pb-10">
   
       <div
         className="relative w-full mx-auto flex items-center justify-center transition-all duration-500"
